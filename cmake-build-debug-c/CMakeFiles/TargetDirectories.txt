@@ -1,0 +1,3 @@
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-c/CMakeFiles/Board_C_Infantry.elf.dir
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-c/CMakeFiles/edit_cache.dir
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-c/CMakeFiles/rebuild_cache.dir
