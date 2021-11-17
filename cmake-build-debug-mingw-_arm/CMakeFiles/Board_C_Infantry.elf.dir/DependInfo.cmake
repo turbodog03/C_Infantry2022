@@ -1,3 +1,7 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "ASM"
@@ -20,40 +24,31 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "../Core/Inc"
-  "../USB_DEVICE/App"
+  "../Inc"
+  "../APP"
+  "../BSP/Inc"
   "../Custom"
-  "../USB_DEVICE/Target"
+  "../UserLib"
   "../Drivers/STM32F4xx_HAL_Driver/Inc"
   "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "../Middlewares/Third_Party/FreeRTOS/Source/include"
   "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
   "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
-  "../Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
-  "../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
   "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/uart_device.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/uart_device.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/can.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/can.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/dma.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/dma.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/freertos.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/freertos.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/gpio.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/gpio.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/i2c.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/i2c.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/main.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/main.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/rng.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/rng.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/spi.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/spi.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/stm32f4xx_hal_msp.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/stm32f4xx_hal_timebase_tim.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/stm32f4xx_it.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/stm32f4xx_it.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/syscalls.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/syscalls.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/system_stm32f4xx.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/system_stm32f4xx.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/tim.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/tim.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Core/Src/usart.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Core/Src/usart.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Detect.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Detect.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Transmission.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_can.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_dwt.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_uart.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
@@ -70,15 +65,13 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Middlewares/Third_Party/FreeRTOS/Source/croutine.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
@@ -89,10 +82,29 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Middlewares/Third_Party/FreeRTOS/Source/timers.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/USB_DEVICE/App/usb_device.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/USB_DEVICE/App/usb_device.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/USB_DEVICE/App/usbd_cdc_if.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/USB_DEVICE/App/usbd_desc.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
-  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/USB_DEVICE/Target/usbd_conf.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/adc.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/adc.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/can.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/can.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/crc.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/crc.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/dma.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/dma.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/freertos.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/freertos.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/gpio.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/gpio.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/i2c.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/i2c.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/main.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/main.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/rng.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/rng.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/rtc.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/rtc.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/spi.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/spi.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/stm32f4xx_hal_msp.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/stm32f4xx_it.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_it.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/syscalls.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/syscalls.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/system_stm32f4xx.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/system_stm32f4xx.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/tim.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/tim.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/usart.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/usb_otg.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/controller.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/controller.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/filter32.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/motor.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/pid.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/pid.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/user_lib.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/user_lib.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -107,19 +119,22 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../Core/Inc"
-  "../USB_DEVICE/App"
+  "../Inc"
+  "../APP"
+  "../BSP/Inc"
   "../Custom"
-  "../USB_DEVICE/Target"
+  "../UserLib"
   "../Drivers/STM32F4xx_HAL_Driver/Inc"
   "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "../Middlewares/Third_Party/FreeRTOS/Source/include"
   "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
   "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
-  "../Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
-  "../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
   "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "../Drivers/CMSIS/Include"
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
 # Targets to which this target links.

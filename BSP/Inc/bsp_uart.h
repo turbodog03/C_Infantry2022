@@ -1,0 +1,42 @@
+//
+// Created by turboDog on 2021/11/16.
+//
+
+#ifndef BOARD_C_INFANTRY_BSP_UART_H
+#define BOARD_C_INFANTRY_BSP_UART_H
+#include "Transmission.h"
+#include "sys.h"
+
+
+/* 解析后的遥控器数据 */
+extern rc_type_t rc;
+
+#define SBUS_RX_BUF_NUM 36u
+
+/**
+  * @brief          remote control init
+  * @param[in]      none
+  * @retval         none
+  */
+/**
+  * @brief          遥控器初始化
+  * @param[in]      none
+  * @retval         none
+  */
+extern void remote_control_init(void);
+extern void RC_init(uint8_t *rx1_buf, uint8_t *rx2_buf, uint16_t dma_buf_num);
+
+
+/**
+  * @brief     解析遥控器数据
+  * @param     rc: 解析后的遥控器数据结构体指针
+  * @param     buff: 串口接收到的遥控器原始数据指针
+  */
+static void remote_data_handle(rc_type_t *rc, uint8_t *buff);
+/**
+  * @brief     发送遥控器数据给上板
+  * @param     _hcan: 需要发送的can
+  * @param     rc_data: 串口接收到的遥控器原始数据指针
+  */
+void Send_RC_Data(CAN_HandleTypeDef *_hcan, uint8_t *rc_data);
+#endif //BOARD_C_INFANTRY_BSP_UART_H
