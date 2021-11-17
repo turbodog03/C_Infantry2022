@@ -27,7 +27,7 @@ rc_type_t rc;
 
 //receive data, 18 bytes one frame, but set 36 bytes
 //接收原始数据，为18个字节，给了36个字节长度，防止DMA传输越界
-static uint8_t sbus_rx_buf[2][SBUS_RX_BUF_NUM];
+uint8_t sbus_rx_buf[2][SBUS_RX_BUF_NUM];
 static void remote_data_handle(rc_type_t *rc, uint8_t *buff);
 /**
   * @brief          remote control init
@@ -90,8 +90,8 @@ void USART3_IRQHandler(void)
             if(this_time_rx_len == DBUS_FRAME_SIZE)
             {
                 remote_data_handle(&rc, sbus_rx_buf[0]);
-                Send_RC_Data(&hcan2, sbus_rx_buf[0]);
-                Send_RC_Data(&hcan1, sbus_rx_buf[0]);
+//                Send_RC_Data(&hcan2, sbus_rx_buf[0]);
+//                Send_RC_Data(&hcan1, sbus_rx_buf[0]);
                 HAL_GPIO_WritePin(GPIOH,GPIO_PIN_11,GPIO_PIN_SET);
             }
         }
@@ -122,8 +122,8 @@ void USART3_IRQHandler(void)
             {
                 //处理遥控器数据
                 remote_data_handle(&rc, sbus_rx_buf[1]);
-                Send_RC_Data(&hcan2, sbus_rx_buf[1]);
-                Send_RC_Data(&hcan1, sbus_rx_buf[1]);
+//                Send_RC_Data(&hcan2, sbus_rx_buf[1]);
+//                Send_RC_Data(&hcan1, sbus_rx_buf[1]);
                 HAL_GPIO_WritePin(GPIOH,GPIO_PIN_12,GPIO_PIN_SET);
 
             }
@@ -209,7 +209,6 @@ void Send_RC_Data(CAN_HandleTypeDef *_hcan, uint8_t *rc_data)
     CAN_Send_Data[6] = rc_data[6];
     CAN_Send_Data[7] = rc_data[7];
     HAL_CAN_AddTxMessage(_hcan, &TX_MSG, CAN_Send_Data, &send_mail_box);
-    //write_can(hcan1,CAN_RC_DATA_Frame_0,CAN_Send_Data);
 
     TX_MSG.StdId = CAN_RC_DATA_Frame_1;
     CAN_Send_Data[0] = rc_data[8];
@@ -221,7 +220,6 @@ void Send_RC_Data(CAN_HandleTypeDef *_hcan, uint8_t *rc_data)
     CAN_Send_Data[6] = rc_data[14];
     CAN_Send_Data[7] = rc_data[15];
     HAL_CAN_AddTxMessage(_hcan, &TX_MSG, CAN_Send_Data, &send_mail_box);
-    //write_can(hcan1,CAN_RC_DATA_Frame_1,CAN_Send_Data);
 }
 
 void RC_init(uint8_t *rx1_buf, uint8_t *rx2_buf, uint16_t dma_buf_num)

@@ -4,8 +4,6 @@
 
 #ifndef TRANSMISSION_H
 #define TRANSMISSION_H
-
-#endif //TRANSMISSION_H
 #include "cmsis_os.h"
 #include "gpio.h"
 
@@ -195,3 +193,5 @@ typedef struct
 
 } km_control_t;
 
+
+#endif //TRANSMISSION_H

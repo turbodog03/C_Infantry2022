@@ -7,11 +7,11 @@
 #include "Transmission.h"
 #include "sys.h"
 
-
+#define SBUS_RX_BUF_NUM 36u
 /* 解析后的遥控器数据 */
 extern rc_type_t rc;
+extern uint8_t sbus_rx_buf[2][SBUS_RX_BUF_NUM];
 
-#define SBUS_RX_BUF_NUM 36u
 
 /**
   * @brief          remote control init

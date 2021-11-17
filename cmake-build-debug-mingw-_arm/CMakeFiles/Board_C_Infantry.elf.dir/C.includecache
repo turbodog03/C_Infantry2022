@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../APP/Detect.h
-stdint.h
-../APP/stdint.h
-
-../APP/Transmission.h
-cmsis_os.h
-../APP/cmsis_os.h
-gpio.h
-../APP/gpio.h
-
 ../BSP/Inc/bsp_can.h
 motor.h
 -
@@ -700,25 +690,17 @@ main.h
 cmsis_os.h
 ../UserLib/cmsis_os.h
 
-D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_can.c
-can.h
--
-Detect.h
--
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Transmission.c
+Transmission.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Transmission.h
 bsp_can.h
-D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_can.h
-
-D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_uart.c
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/bsp_can.h
 bsp_uart.h
-D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_uart.h
-stdint.h
-D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/stdint.h
-stm32f4xx_hal.h
-D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/stm32f4xx_hal.h
-string.h
--
-can.h
--
-bsp_can.h
--
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/bsp_uart.h
+
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Transmission.h
+cmsis_os.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/cmsis_os.h
+gpio.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/gpio.h
 

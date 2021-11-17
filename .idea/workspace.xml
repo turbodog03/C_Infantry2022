@@ -13,15 +13,17 @@
   <component name="ChangeListManager">
     <list default="true" id="725fd37b-0e84-49e7-99d7-87f96a2ae7e6" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Transmission.c" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Transmission.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Transmission.h" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Transmission.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSP/Inc/bsp_uart.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Inc/bsp_uart.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BSP/Src/bsp_uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Src/bsp_uart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.make" afterDir="false" />
     </list>
@@ -145,11 +147,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c</url>
-          <line>1330</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c</url>
           <line>1286</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
@@ -159,7 +156,6 @@
       <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
         <watch expression="hdma_usart3_rx" />
         <watch expression="sbus_rx_buf" />
-        <watch expression="State" />
       </configuration>
     </watches-manager>
   </component>

@@ -67,6 +67,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/APP/Detect.c.obj
 CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj
  ../BSP/Inc/bsp_can.h
  ../BSP/Inc/bsp_dwt.h
+ ../BSP/Inc/bsp_uart.h
  ../Custom/sys.h
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
