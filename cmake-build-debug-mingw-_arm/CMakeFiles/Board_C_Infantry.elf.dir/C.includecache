@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../APP/Transmission.h
+cmsis_os.h
+../APP/cmsis_os.h
+gpio.h
+../APP/gpio.h
+
 ../BSP/Inc/bsp_can.h
 motor.h
 -
@@ -638,6 +644,10 @@ string.h
 math.h
 ../UserLib/math.h
 
+../UserLib/calibrate.h
+stm32f4xx_hal.h
+../UserLib/stm32f4xx_hal.h
+
 ../UserLib/controller.h
 main.h
 ../UserLib/main.h
@@ -672,6 +682,10 @@ main.h
 cmsis_os.h
 ../UserLib/cmsis_os.h
 
+../UserLib/keyboard.h
+stm32f4xx_hal.h
+../UserLib/stm32f4xx_hal.h
+
 ../UserLib/motor.h
 stdint.h
 -
@@ -679,6 +693,10 @@ controller.h
 ../UserLib/controller.h
 can.h
 ../UserLib/can.h
+
+../UserLib/pid.h
+stm32f4xx_hal.h
+../UserLib/stm32f4xx_hal.h
 
 ../UserLib/user_lib.h
 sys.h
@@ -689,6 +707,46 @@ main.h
 ../UserLib/main.h
 cmsis_os.h
 ../UserLib/cmsis_os.h
+
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Detect.h
+stdint.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/stdint.h
+
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Gimbal.c
+Gimbal.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Gimbal.h
+chassis_task.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/chassis_task.h
+Detect.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Detect.h
+bsp_can.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/bsp_can.h
+bsp_uart.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/bsp_uart.h
+calibrate.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/calibrate.h
+keyboard.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/keyboard.h
+pid.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/pid.h
+ramp.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/ramp.h
+sys.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/sys.h
+cmsis_os.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/cmsis_os.h
+stdlib.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/stdlib.h
+stdio.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/stdio.h
+math.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/math.h
+
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Gimbal.h
+stm32f4xx_hal.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/stm32f4xx_hal.h
+rm_hal_lib.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/rm_hal_lib.h
 
 D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Transmission.c
 Transmission.h
@@ -703,4 +761,18 @@ cmsis_os.h
 D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/cmsis_os.h
 gpio.h
 D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/gpio.h
+
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/calibrate.c
+rm_hal_lib.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/rm_hal_lib.h
+calibrate.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/calibrate.h
+can_device.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/can_device.h
+calibrate.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/calibrate.h
+
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/calibrate.h
+stm32f4xx_hal.h
+D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/stm32f4xx_hal.h
 

@@ -120,6 +120,12 @@
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Detect.h">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Gimbal.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Gimbal.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Transmission.c">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
@@ -535,6 +541,12 @@
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/arm_math.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/calibrate.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/calibrate.h">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/controller.c">

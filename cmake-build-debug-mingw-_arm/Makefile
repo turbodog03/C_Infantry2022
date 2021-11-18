@@ -152,6 +152,30 @@ APP/Detect.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/APP/Detect.c.s
 .PHONY : APP/Detect.c.s
 
+APP/Gimbal.obj: APP/Gimbal.c.obj
+.PHONY : APP/Gimbal.obj
+
+# target to build an object file
+APP/Gimbal.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/APP/Gimbal.c.obj
+.PHONY : APP/Gimbal.c.obj
+
+APP/Gimbal.i: APP/Gimbal.c.i
+.PHONY : APP/Gimbal.i
+
+# target to preprocess a source file
+APP/Gimbal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/APP/Gimbal.c.i
+.PHONY : APP/Gimbal.c.i
+
+APP/Gimbal.s: APP/Gimbal.c.s
+.PHONY : APP/Gimbal.s
+
+# target to generate assembly for a file
+APP/Gimbal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/APP/Gimbal.c.s
+.PHONY : APP/Gimbal.c.s
+
 APP/Transmission.obj: APP/Transmission.c.obj
 .PHONY : APP/Transmission.obj
 
@@ -1616,6 +1640,30 @@ Src/usb_otg.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.s
 .PHONY : Src/usb_otg.c.s
 
+UserLib/calibrate.obj: UserLib/calibrate.c.obj
+.PHONY : UserLib/calibrate.obj
+
+# target to build an object file
+UserLib/calibrate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj
+.PHONY : UserLib/calibrate.c.obj
+
+UserLib/calibrate.i: UserLib/calibrate.c.i
+.PHONY : UserLib/calibrate.i
+
+# target to preprocess a source file
+UserLib/calibrate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.i
+.PHONY : UserLib/calibrate.c.i
+
+UserLib/calibrate.s: UserLib/calibrate.c.s
+.PHONY : UserLib/calibrate.s
+
+# target to generate assembly for a file
+UserLib/calibrate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.s
+.PHONY : UserLib/calibrate.c.s
+
 UserLib/controller.obj: UserLib/controller.c.obj
 .PHONY : UserLib/controller.obj
 
@@ -1756,6 +1804,9 @@ help:
 	@echo ... APP/Detect.obj
 	@echo ... APP/Detect.i
 	@echo ... APP/Detect.s
+	@echo ... APP/Gimbal.obj
+	@echo ... APP/Gimbal.i
+	@echo ... APP/Gimbal.s
 	@echo ... APP/Transmission.obj
 	@echo ... APP/Transmission.i
 	@echo ... APP/Transmission.s
@@ -1939,6 +1990,9 @@ help:
 	@echo ... Src/usb_otg.obj
 	@echo ... Src/usb_otg.i
 	@echo ... Src/usb_otg.s
+	@echo ... UserLib/calibrate.obj
+	@echo ... UserLib/calibrate.i
+	@echo ... UserLib/calibrate.s
 	@echo ... UserLib/controller.obj
 	@echo ... UserLib/controller.i
 	@echo ... UserLib/controller.s

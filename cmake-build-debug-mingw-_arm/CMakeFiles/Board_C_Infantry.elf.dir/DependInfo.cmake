@@ -39,6 +39,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_C
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Detect.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Detect.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Gimbal.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Gimbal.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Transmission.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_can.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_dwt.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.obj"
@@ -100,6 +101,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/tim.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/tim.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/usart.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/usb_otg.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.obj"
+  "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/calibrate.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/controller.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/controller.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/filter32.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.obj"
   "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/motor.c" "D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.obj"

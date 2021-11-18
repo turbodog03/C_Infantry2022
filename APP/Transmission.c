@@ -10,7 +10,7 @@
 void transmission_task(void const * argument)
 {
     /* USER CODE BEGIN transmit_task */
-//    uint32_t transmission_wake_time = osKernelSysTick();
+    uint32_t transmission_wake_time = osKernelSysTick();
     uint8_t send_data[8];
     send_data[0]= 20;
     send_data[1]= 20;
@@ -22,12 +22,10 @@ void transmission_task(void const * argument)
     send_data[7]= 20;
     /* Infinite loop */
     for(;;) {
-//        HAL_GPIO_TogglePin(GPIOH,GPIO_PIN_12);
-//        HAL_GPIO_TogglePin(GPIOH,GPIO_PIN_11);
+
         Send_RC_Data(&hcan2,sbus_rx_buf[0]);
         Send_RC_Data(&hcan2,sbus_rx_buf[1]);
-//        HAL_Delay(500);
-//        osDelayUntil(&transmission_wake_time, 500);
+        osDelayUntil(&transmission_wake_time, 50);
     }
     /* USER CODE END transmit_task */
 }
