@@ -324,7 +324,7 @@ typedef  void (*pADC_CallbackTypeDef)(ADC_HandleTypeDef *hadc); /*!< pointer to 
   * @{
   */
 /* Note: Parameter ADC_SOFTWARE_START is a software parameter used for        */
-/*       compatibility with other STM32 devices.                              */
+/*       compatibility with other STM32 Devices.                              */
 #define ADC_EXTERNALTRIGCONV_T1_CC1    0x00000000U
 #define ADC_EXTERNALTRIGCONV_T1_CC2    ((uint32_t)ADC_CR2_EXTSEL_0)
 #define ADC_EXTERNALTRIGCONV_T1_CC3    ((uint32_t)ADC_CR2_EXTSEL_1)

@@ -18,7 +18,6 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include <bsp_can.h>
 #include "main.h"
 #include "cmsis_os.h"
 #include "adc.h"
@@ -31,12 +30,15 @@
 #include "spi.h"
 #include "tim.h"
 #include "usart.h"
-#include "usb_otg.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "bsp_uart.h"
+#include "bsp_tim.h"
+#include <calibrate.h>
+#include <bsp_dwt.h>
+#include <bsp_can.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -121,10 +123,13 @@ int main(void)
   MX_TIM10_Init();
   MX_USART1_UART_Init();
   MX_USART6_UART_Init();
-  MX_USB_OTG_FS_PCD_Init();
   /* USER CODE BEGIN 2 */
+  //初始化DWT外设
+  DWT_Init(168);
   remote_control_init();
   CAN_Device_Init();
+  set_pwm_group_param(1, 20000);
+  read_cali_data();
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in freertos.c) */

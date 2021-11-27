@@ -153,5 +153,6 @@ else if((val) >= (max))\
 {\
   (val) = (max);\
 }\
-
+/******** 自定义接口设置 *******/
+#define NUC_UART 6
 #endif

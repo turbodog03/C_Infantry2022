@@ -155,7 +155,7 @@ void HAL_PWR_DisableBkUpAccess(void)
     *** Low Power modes configuration ***
     =====================================
     [..]
-      The devices feature 3 low-power modes:
+      The Devices feature 3 low-power modes:
       (+) Sleep mode: Cortex-M4 core stopped, peripherals kept running.
       (+) Stop mode: all clocks are stopped, regulator running, regulator 
           in low power mode
@@ -311,8 +311,8 @@ void HAL_PWR_DisablePVD(void)
   * @param WakeUpPinx Specifies the Power Wake-Up pin to enable.
   *         This parameter can be one of the following values:
   *           @arg PWR_WAKEUP_PIN1
-  *           @arg PWR_WAKEUP_PIN2 available only on STM32F410xx/STM32F446xx/STM32F412xx/STM32F413xx/STM32F423xx devices
-  *           @arg PWR_WAKEUP_PIN3 available only on STM32F410xx/STM32F412xx/STM32F413xx/STM32F423xx devices
+  *           @arg PWR_WAKEUP_PIN2 available only on STM32F410xx/STM32F446xx/STM32F412xx/STM32F413xx/STM32F423xx Devices
+  *           @arg PWR_WAKEUP_PIN3 available only on STM32F410xx/STM32F412xx/STM32F413xx/STM32F423xx Devices
   * @retval None
   */
 void HAL_PWR_EnableWakeUpPin(uint32_t WakeUpPinx)
@@ -329,8 +329,8 @@ void HAL_PWR_EnableWakeUpPin(uint32_t WakeUpPinx)
   * @param WakeUpPinx Specifies the Power Wake-Up pin to disable.
   *         This parameter can be one of the following values:
   *           @arg PWR_WAKEUP_PIN1
-  *           @arg PWR_WAKEUP_PIN2 available only on STM32F410xx/STM32F446xx/STM32F412xx/STM32F413xx/STM32F423xx devices
-  *           @arg PWR_WAKEUP_PIN3 available only on STM32F410xx/STM32F412xx/STM32F413xx/STM32F423xx devices
+  *           @arg PWR_WAKEUP_PIN2 available only on STM32F410xx/STM32F446xx/STM32F412xx/STM32F413xx/STM32F423xx Devices
+  *           @arg PWR_WAKEUP_PIN3 available only on STM32F410xx/STM32F412xx/STM32F413xx/STM32F423xx Devices
   * @retval None
   */
 void HAL_PWR_DisableWakeUpPin(uint32_t WakeUpPinx)

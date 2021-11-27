@@ -569,7 +569,7 @@ uint32_t HAL_GetUIDw2(void)
 /**
   * @brief  Enables the Internal FLASH Bank Swapping.
   *   
-  * @note   This function can be used only for STM32F42xxx/43xxx/469xx/479xx devices. 
+  * @note   This function can be used only for STM32F42xxx/43xxx/469xx/479xx Devices.
   *
   * @note   Flash Bank2 mapped at 0x08000000 (and aliased @0x00000000) 
   *         and Flash Bank1 mapped at 0x08100000 (and aliased at 0x00100000)   
@@ -584,7 +584,7 @@ void HAL_EnableMemorySwappingBank(void)
 /**
   * @brief  Disables the Internal FLASH Bank Swapping.
   *   
-  * @note   This function can be used only for STM32F42xxx/43xxx/469xx/479xx devices. 
+  * @note   This function can be used only for STM32F42xxx/43xxx/469xx/479xx Devices.
   *
   * @note   The default state : Flash Bank1 mapped at 0x08000000 (and aliased @0x00000000) 
   *         and Flash Bank2 mapped at 0x08100000 (and aliased at 0x00100000) 

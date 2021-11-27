@@ -1163,9 +1163,9 @@ typedef struct
 /*                                                                            */
 /******************************************************************************/
 /*
- * @brief Specific device feature definitions (not present on all devices in the STM32F4 serie)
+ * @brief Specific device feature definitions (not present on all Devices in the STM32F4 serie)
  */
-#define ADC_MULTIMODE_SUPPORT                                                  /*!<ADC Multimode feature available on specific devices */
+#define ADC_MULTIMODE_SUPPORT                                                  /*!<ADC Multimode feature available on specific Devices */
 
 /********************  Bit definition for ADC_SR register  ********************/
 #define ADC_SR_AWD_Pos            (0U)                                         
@@ -5439,9 +5439,9 @@ typedef struct
 /*                                                                            */
 /******************************************************************************/
 /*
- * @brief Specific device feature definitions (not present on all devices in the STM32F4 serie)
+ * @brief Specific device feature definitions (not present on all Devices in the STM32F4 serie)
  */
-#define DAC_CHANNEL2_SUPPORT                                    /*!< DAC feature available only on specific devices: availability of DAC channel 2 */
+#define DAC_CHANNEL2_SUPPORT                                    /*!< DAC feature available only on specific Devices: availability of DAC channel 2 */
 /********************  Bit definition for DAC_CR register  ********************/
 #define DAC_CR_EN1_Pos              (0U)                                       
 #define DAC_CR_EN1_Msk              (0x1UL << DAC_CR_EN1_Pos)                   /*!< 0x00000001 */
@@ -9470,7 +9470,7 @@ typedef struct
 #define RCC_CR_PLLRDY_Msk                  (0x1UL << RCC_CR_PLLRDY_Pos)         /*!< 0x02000000 */
 #define RCC_CR_PLLRDY                      RCC_CR_PLLRDY_Msk                   
 /*
- * @brief Specific device feature definitions (not present on all devices in the STM32F4 serie)
+ * @brief Specific device feature definitions (not present on all Devices in the STM32F4 serie)
  */
 #define RCC_PLLI2S_SUPPORT                                                     /*!< Support PLLI2S oscillator */
 
@@ -9936,7 +9936,7 @@ typedef struct
 #define RCC_AHB1ENR_OTGHSULPIEN            RCC_AHB1ENR_OTGHSULPIEN_Msk         
 /********************  Bit definition for RCC_AHB2ENR register  ***************/
 /*
- * @brief Specific device feature definitions (not present on all devices in the STM32F4 serie)
+ * @brief Specific device feature definitions (not present on all Devices in the STM32F4 serie)
  */
 #define RCC_AHB2_SUPPORT                   /*!< AHB2 Bus is supported */
 
@@ -9952,7 +9952,7 @@ typedef struct
 
 /********************  Bit definition for RCC_AHB3ENR register  ***************/
 /*
- * @brief Specific device feature definitions (not present on all devices in the STM32F4 serie)
+ * @brief Specific device feature definitions (not present on all Devices in the STM32F4 serie)
  */
 #define RCC_AHB3_SUPPORT                   /*!< AHB3 Bus is supported */
 
@@ -10400,7 +10400,7 @@ typedef struct
 /*                                                                            */
 /******************************************************************************/
 /*
- * @brief Specific device feature definitions  (not present on all devices in the STM32F4 serie)
+ * @brief Specific device feature definitions  (not present on all Devices in the STM32F4 serie)
  */
 #define RTC_TAMPER2_SUPPORT  /*!< TAMPER 2 feature support */
 #define RTC_AF2_SUPPORT /*!< RTC Alternate Function 2 mapping support */
@@ -15527,7 +15527,7 @@ typedef struct
 #define USB_OTG_FS_TOTAL_FIFO_SIZE                     1280U /* in Bytes */
 
 /*
- * @brief Specific devices reset values definitions
+ * @brief Specific Devices reset values definitions
  */
 #define RCC_PLLCFGR_RST_VALUE              0x24003010U
 #define RCC_PLLI2SCFGR_RST_VALUE           0x20003000U

@@ -45,7 +45,7 @@
    * ------------
    *
    * This user manual describes the CMSIS DSP software library,
-   * a suite of common signal processing functions for use on Cortex-M processor based devices.
+   * a suite of common signal processing functions for use on Cortex-M processor based Devices.
    *
    * The library is divided into a number of functions each covering a specific category:
    * - Basic math functions

@@ -5,6 +5,7 @@
 #include <can.h>
 #include <Detect.h>
 #include "bsp_can.h"
+
 void CAN_Device_Init(void){
     CAN_FilterTypeDef can_filter_st;
     can_filter_st.FilterActivation = ENABLE;
@@ -125,4 +126,124 @@ void write_can(CAN_HandleTypeDef can, uint32_t send_id, uint8_t send_data[]){
     for(int i=0;i<8;i++)
     can_send_data[i] = send_data[i];
     HAL_CAN_AddTxMessage(&can, &tx_message, can_send_data, &send_mail_box);
+}
+
+
+
+/**
+  * @brief     获得电机初始偏差
+  * @param     ptr: 电机参数 moto_measure_t 结构体指针
+  * @param     data: 接收到的电机 CAN 数据指针
+  */
+static void get_moto_offset(moto_measure_t *ptr, uint8_t data[])
+{
+    ptr->ecd        = (uint16_t)(data[0] << 8 | data[1]);
+    ptr->offset_ecd = ptr->ecd;
+}
+
+/**
+  * @brief     计算电机的转速rmp 圈数round_cnt
+  *            总编码器数值total_ecd 总旋转的角度total_angle
+  * @param     ptr: 电机参数 moto_measure_t 结构体指针
+  * @param     data: 接收到的电机 CAN 数据指针
+  */
+static void encoder_data_handle(moto_measure_t *ptr, uint8_t data[])
+{
+    int32_t temp_sum = 0;
+
+    ptr->last_ecd      = ptr->ecd;
+    //转子机械角度
+    ptr->ecd           = (uint16_t)(data[0] << 8 | data[1]);
+    //转子转速
+    ptr->speed_rpm     = (int16_t)(data[2] << 8 | data[3]);
+    //转矩电流没有处理
+    if (ptr->ecd - ptr->last_ecd > 4096)
+    {
+        ptr->round_cnt--;
+        ptr->ecd_raw_rate = ptr->ecd - ptr->last_ecd - 8192;
+    }
+    else if (ptr->ecd - ptr->last_ecd < -4096)
+    {
+        ptr->round_cnt++;
+        ptr->ecd_raw_rate = ptr->ecd - ptr->last_ecd + 8192;
+    }
+    else
+    {
+        ptr->ecd_raw_rate = ptr->ecd - ptr->last_ecd;
+    }
+
+    ptr->total_ecd = ptr->round_cnt * 8192 + ptr->ecd - ptr->offset_ecd;
+    ptr->total_angle = ptr->total_ecd * 360 / 8192;
+
+
+    ptr->rate_buf[ptr->buf_cut++] = ptr->ecd_raw_rate;
+    if (ptr->buf_cut >= FILTER_BUF)
+        ptr->buf_cut = 0;
+    for (uint8_t i = 0; i < FILTER_BUF; i++)
+    {
+        temp_sum += ptr->rate_buf[i];
+    }
+    ptr->filter_rate = (int32_t)(temp_sum/FILTER_BUF);
+}
+
+
+/**
+  * @brief     发送云台电机电流数据到电调
+  */
+extern int16_t trigger_moto_current;
+void send_gimbal_moto_current(int16_t yaw_current, int16_t pit_current)
+{
+    static uint8_t data[8];
+
+    data[0] = yaw_current >> 8;
+    data[1] = yaw_current;
+    data[2] = pit_current >> 8;
+    data[3] = pit_current;
+    //data[4] = trigger_current >> 8;
+    //data[5] = trigger_current;
+    data[6] = 0;
+    data[7] = 0;
+
+    write_can(hcan1, CAN_GIMBAL_ID, data);
+}
+void send_gimbal_moto_zero_current(void)
+{
+    static uint8_t data[8];
+
+    data[0] = 0;
+    data[1] = 0;
+    data[2] = 0;
+    data[3] = 0;
+    data[4] = 0;
+    data[5] = 0;
+    data[6] = 0;
+    data[7] = 0;
+
+    write_can(hcan1, CAN_GIMBAL_ID, data);
+}
+
+void send_shoot_moto_current(int16_t left_current,int16_t right_current, int16_t trigger_current)
+{
+    static uint8_t data[8];
+
+    data[0] = left_current >> 8;
+    data[1] = left_current;
+    data[2] = right_current >> 8;
+    data[3] = right_current;
+    data[4] = trigger_current >> 8;
+    data[5] = trigger_current;
+    data[6] = 0;
+    data[7] = 0;
+
+    write_can(hcan1, CAN_CHASSIS_ID, data);
+}
+
+void sendSuperCap(void)
+{
+    uint16_t temPower =9000;//功率设定步进0.01W，范围为3000-13000（30W-130W）
+    uint8_t sendbuf[8];//发送的数据内容
+    sendbuf[0]=temPower >> 8;
+    sendbuf[1]=temPower;
+    write_can(hcan2, CAN_SUPER_CAP_ID, sendbuf);
+
 }

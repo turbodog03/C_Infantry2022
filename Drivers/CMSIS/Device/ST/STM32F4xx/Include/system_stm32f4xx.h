@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file    system_stm32f4xx.h
   * @author  MCD Application Team
-  * @brief   CMSIS Cortex-M4 Device System Source File for STM32F4xx devices.       
+  * @brief   CMSIS Cortex-M4 Device System Source File for STM32F4xx Devices.
   ******************************************************************************  
   * @attention
   *

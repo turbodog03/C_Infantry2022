@@ -6,12 +6,16 @@
 #define BOARD_C_INFANTRY_BSP_UART_H
 #include "Transmission.h"
 #include "sys.h"
+#include "Gimbal.h"
 
 #define SBUS_RX_BUF_NUM 36u
 /* 解析后的遥控器数据 */
 extern rc_type_t rc;
 extern uint8_t sbus_rx_buf[2][SBUS_RX_BUF_NUM];
-
+extern uint8_t   bluetooth_recv[];
+extern uint8_t   nuc_recv[];
+extern uint8_t	 referee_recv[];
+extern recv_frame data_recv;
 
 /**
   * @brief          remote control init
@@ -39,4 +43,12 @@ static void remote_data_handle(rc_type_t *rc, uint8_t *buff);
   * @param     rc_data: 串口接收到的遥控器原始数据指针
   */
 void Send_RC_Data(CAN_HandleTypeDef *_hcan, uint8_t *rc_data);
+
+/**
+  * @brief     发送 UART 数据
+  * @param     uart_id: UART ID
+  * @param     send_data: 发送数据指针
+  * @param     size: 发送数据的长度
+  */
+void write_uart(uint8_t uart_id, uint8_t *send_data, uint16_t size);
 #endif //BOARD_C_INFANTRY_BSP_UART_H

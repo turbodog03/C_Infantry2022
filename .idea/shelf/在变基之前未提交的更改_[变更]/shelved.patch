@@ -1,0 +1,122 @@
+Index: APP/Transmission.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//\r\n// Created by HLiamso on 2021-11-14.\r\n//\r\n\r\n\r\n#include \"Transmission.h\"\r\n#include \"bsp_can.h\"\r\n#include \"bsp_uart.h\"\r\n\r\nvoid transmission_task(void const * argument)\r\n{\r\n    /* USER CODE BEGIN transmit_task */\r\n//    uint32_t transmission_wake_time = osKernelSysTick();\r\n    uint8_t send_data[8];\r\n    send_data[0]= 20;\r\n    send_data[1]= 20;\r\n    send_data[2]= 20;\r\n    send_data[3]= 20;\r\n    send_data[4]= 20;\r\n    send_data[5]= 20;\r\n    send_data[6]= 20;\r\n    send_data[7]= 20;\r\n    /* Infinite loop */\r\n    for(;;) {\r\n//        HAL_GPIO_TogglePin(GPIOH,GPIO_PIN_12);\r\n//        HAL_GPIO_TogglePin(GPIOH,GPIO_PIN_11);\r\n        Send_RC_Data(&hcan2,sbus_rx_buf[0]);\r\n        Send_RC_Data(&hcan2,sbus_rx_buf[1]);\r\n//        HAL_Delay(500);\r\n//        osDelayUntil(&transmission_wake_time, 500);\r\n    }\r\n    /* USER CODE END transmit_task */\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GB2312
+===================================================================
+diff --git a/APP/Transmission.c b/APP/Transmission.c
+--- a/APP/Transmission.c	
++++ b/APP/Transmission.c	
+@@ -26,6 +26,8 @@
+ //        HAL_GPIO_TogglePin(GPIOH,GPIO_PIN_11);
+         Send_RC_Data(&hcan2,sbus_rx_buf[0]);
+         Send_RC_Data(&hcan2,sbus_rx_buf[1]);
++//        Send_RC_Data(&hcan1,sbus_rx_buf[0]);
++//        Send_RC_Data(&hcan1,sbus_rx_buf[1]);
+ //        HAL_Delay(500);
+ //        osDelayUntil(&transmission_wake_time, 500);
+     }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CMakeRunConfigurationManager\" shouldGenerate=\"true\" shouldDeleteObsolete=\"true\">\r\n    <generated>\r\n      <config projectName=\"Board_C_Infantry\" targetName=\"Board_C_Infantry.elf\" />\r\n    </generated>\r\n  </component>\r\n  <component name=\"CMakeSettings\" AUTO_RELOAD=\"true\">\r\n    <configurations>\r\n      <configuration PROFILE_NAME=\"Debug-MinGW _ARM\" ENABLED=\"true\" CONFIG_NAME=\"Debug\" TOOLCHAIN_NAME=\"MinGW _ARM\" />\r\n    </configurations>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"725fd37b-0e84-49e7-99d7-87f96a2ae7e6\" name=\"变更\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/APP/Transmission.c\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/APP/Transmission.c\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/APP/Transmission.h\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/APP/Transmission.h\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/BSP/Inc/bsp_uart.h\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/BSP/Inc/bsp_uart.h\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/BSP/Src/bsp_uart.c\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/BSP/Src/bsp_uart.c\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.bin\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.elf\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.elf\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.hex\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.hex\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.map\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.map\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/C.includecache\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/C.includecache\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.internal\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.internal\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.make\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.make\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ClangdSettings\">\r\n    <option name=\"formatViaClangd\" value=\"false\" />\r\n  </component>\r\n  <component name=\"EmbeddedSvdWindowState\">\r\n    <option name=\"columnWidths\">\r\n      <list>\r\n        <option value=\"212\" />\r\n        <option value=\"92\" />\r\n        <option value=\"1506\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"columnOrder\">\r\n      <list>\r\n        <option value=\"名称\" />\r\n        <option value=\"值\" />\r\n        <option value=\"描述\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"CMakeBuildProfile:Debug-MinGW _ARM\" />\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"20zzQJ0RFsVIODWes7mW5V9ipQ3\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.cidr.known.project.marker\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"cf.first.check.clang-format\" value=\"false\" />\r\n    <property name=\"cidr.known.project.marker\" value=\"true\" />\r\n    <property name=\"cmake.loaded.for.project\" value=\"true\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"CPPToolchains\" />\r\n    <property name=\"settings.editor.splitter.proportion\" value=\"0.1985494\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\turboDog\\Documents\\projects\\C_Infantry2022\\Board_C_Infantry\\BSP\\Inc\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"OpenOCD 下载并运行.OCD Board_C_Infantry\">\r\n    <configuration default=\"true\" type=\"CLionExternalRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\">\r\n      <method v=\"2\">\r\n        <option name=\"CLION.EXTERNAL.BUILD\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Board_C_Infantry.elf\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"Board_C_Infantry\" TARGET_NAME=\"Board_C_Infantry.elf\" CONFIG_NAME=\"Debug-MinGW _ARM\" RUN_TARGET_PROJECT_NAME=\"Board_C_Infantry\" RUN_TARGET_NAME=\"Board_C_Infantry.elf\">\r\n      <method v=\"2\">\r\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"GradleAppRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\">\r\n      <method v=\"2\">\r\n        <option name=\"com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"OCD Board_C_Infantry\" type=\"com.jetbrains.cidr.embedded.openocd.conf.type\" factoryName=\"com.jetbrains.cidr.embedded.openocd.conf.factory\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"Board_C_Infantry\" TARGET_NAME=\"Board_C_Infantry.elf\" CONFIG_NAME=\"Debug-MinGW _ARM\" version=\"1\" RUN_TARGET_PROJECT_NAME=\"Board_C_Infantry\" RUN_TARGET_NAME=\"Board_C_Infantry.elf\">\r\n      <openocd version=\"1\" gdb-port=\"3333\" telnet-port=\"4444\" board-config=\"D:\\turboDog\\Documents\\rm\\robomaster_a1.cfg\" reset-type=\"INIT\" download-type=\"UPDATED_ONLY\">\r\n        <debugger kind=\"GDB\" isBundled=\"true\" />\r\n      </openocd>\r\n      <method v=\"2\">\r\n        <option name=\"CLION.COMPOUND.BUILD\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"CMake 应用程序.Board_C_Infantry.elf\" />\r\n      <item itemvalue=\"OpenOCD 下载并运行.OCD Board_C_Infantry\" />\r\n    </list>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"725fd37b-0e84-49e7-99d7-87f96a2ae7e6\" name=\"变更\" comment=\"\" />\r\n      <created>1637062186958</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1637062186958</updated>\r\n      <workItem from=\"1637062188153\" duration=\"6899000\" />\r\n      <workItem from=\"1637077935287\" duration=\"940000\" />\r\n      <workItem from=\"1637115559482\" duration=\"10385000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"com.jetbrains.cidr.execution.debugger.OCBreakpointType\">\r\n          <url>file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c</url>\r\n          <line>1286</line>\r\n          <option name=\"timeStamp\" value=\"29\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n    <watches-manager>\r\n      <configuration name=\"com.jetbrains.cidr.embedded.openocd.conf.type\">\r\n        <watch expression=\"hdma_usart3_rx\" />\r\n        <watch expression=\"sbus_rx_buf\" />\r\n      </configuration>\r\n    </watches-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -14,18 +14,6 @@
+     <list default="true" id="725fd37b-0e84-49e7-99d7-87f96a2ae7e6" name="变更" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/APP/Transmission.c" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Transmission.c" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/APP/Transmission.h" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Transmission.h" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/BSP/Inc/bsp_uart.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Inc/bsp_uart.h" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/BSP/Src/bsp_uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Src/bsp_uart.c" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.elf" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.hex" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.map" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/C.includecache" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.internal" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.make" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -53,6 +41,11 @@
+   </component>
+   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW _ARM" />
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitSEFilterConfiguration">
+@@ -86,11 +79,6 @@
+     </key>
+   </component>
+   <component name="RunManager" selected="OpenOCD 下载并运行.OCD Board_C_Infantry">
+-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+-      <method v="2">
+-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+-      </method>
+-    </configuration>
+     <configuration name="Board_C_Infantry.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Board_C_Infantry" TARGET_NAME="Board_C_Infantry.elf" CONFIG_NAME="Debug-MinGW _ARM" RUN_TARGET_PROJECT_NAME="Board_C_Infantry" RUN_TARGET_NAME="Board_C_Infantry.elf">
+       <method v="2">
+         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+@@ -141,6 +129,22 @@
+         </entry>
+       </map>
+     </option>
++    <option name="RECENT_FILTERS">
++      <map>
++        <entry key="Branch">
++          <value>
++            <list>
++              <RecentGroup>
++                <option name="FILTER_VALUES">
++                  <option value="hotfix" />
++                </option>
++              </RecentGroup>
++            </list>
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+@@ -149,6 +153,26 @@
+           <url>file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c</url>
+           <line>1286</line>
+           <option name="timeStamp" value="29" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
++          <url>file://$PROJECT_DIR$/APP/Transmission.c</url>
++          <line>29</line>
++          <option name="timeStamp" value="34" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
++          <url>file://$PROJECT_DIR$/BSP/Src/bsp_uart.c</url>
++          <line>221</line>
++          <option name="timeStamp" value="35" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
++          <url>file://$PROJECT_DIR$/BSP/Src/bsp_uart.c</url>
++          <line>212</line>
++          <option name="timeStamp" value="37" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
++          <url>file://$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c</url>
++          <line>1330</line>
++          <option name="timeStamp" value="38" />
+         </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>

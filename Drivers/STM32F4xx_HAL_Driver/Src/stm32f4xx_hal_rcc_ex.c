@@ -2757,7 +2757,7 @@ uint32_t HAL_RCCEx_GetPeriphCLKFreq(uint32_t PeriphClk)
 /**
   * @brief  Select LSE mode
   *
-  * @note   This mode is only available for STM32F410xx/STM32F411xx/STM32F446xx/STM32F469xx/STM32F479xx/STM32F412Zx/STM32F412Vx/STM32F412Rx/STM32F412Cx  devices.
+  * @note   This mode is only available for STM32F410xx/STM32F411xx/STM32F446xx/STM32F469xx/STM32F479xx/STM32F412Zx/STM32F412Vx/STM32F412Rx/STM32F412Cx  Devices.
   *
   * @param  Mode specifies the LSE mode.
   *          This parameter can be one of the following values:
@@ -3020,7 +3020,7 @@ HAL_StatusTypeDef HAL_RCCEx_DisablePLLSAI(void)
 /**
   * @brief  Returns the SYSCLK frequency
   *
-  * @note   This function implementation is valid only for STM32F446xx devices.
+  * @note   This function implementation is valid only for STM32F446xx Devices.
   * @note   This function add the PLL/PLLR System clock source
   *
   * @note   The system frequency computed by this function is not the real
@@ -3329,7 +3329,7 @@ HAL_StatusTypeDef HAL_RCC_DeInit(void)
   *         supported by this API. User should request a transition to HSE Off
   *         first and then HSE On or HSE Bypass.
   * @note   This function add the PLL/PLLR factor management during PLL configuration this feature
-  *         is only available in STM32F410xx/STM32F446xx/STM32F469xx/STM32F479xx/STM32F412Zx/STM32F412Vx/STM32F412Rx/STM32F412Cx devices
+  *         is only available in STM32F410xx/STM32F446xx/STM32F469xx/STM32F479xx/STM32F412Zx/STM32F412Vx/STM32F412Rx/STM32F412Cx Devices
   * @retval HAL status
   */
 HAL_StatusTypeDef HAL_RCC_OscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct)
@@ -3665,7 +3665,7 @@ HAL_StatusTypeDef HAL_RCC_OscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct)
   * RCC configuration registers.
   * @param  RCC_OscInitStruct pointer to an RCC_OscInitTypeDef structure that will be configured.
   *
-  * @note   This function is only available in case of STM32F410xx/STM32F446xx/STM32F469xx/STM32F479xx/STM32F412Zx/STM32F412Vx/STM32F412Rx/STM32F412Cx devices.
+  * @note   This function is only available in case of STM32F410xx/STM32F446xx/STM32F469xx/STM32F479xx/STM32F412Zx/STM32F412Vx/STM32F412Rx/STM32F412Cx Devices.
   * @note   This function add the PLL/PLLR factor management
   * @retval None
   */

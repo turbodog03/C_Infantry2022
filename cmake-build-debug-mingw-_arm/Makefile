@@ -176,6 +176,54 @@ APP/Gimbal.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/APP/Gimbal.c.s
 .PHONY : APP/Gimbal.c.s
 
+APP/Ins.obj: APP/Ins.c.obj
+.PHONY : APP/Ins.obj
+
+# target to build an object file
+APP/Ins.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.obj
+.PHONY : APP/Ins.c.obj
+
+APP/Ins.i: APP/Ins.c.i
+.PHONY : APP/Ins.i
+
+# target to preprocess a source file
+APP/Ins.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.i
+.PHONY : APP/Ins.c.i
+
+APP/Ins.s: APP/Ins.c.s
+.PHONY : APP/Ins.s
+
+# target to generate assembly for a file
+APP/Ins.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.s
+.PHONY : APP/Ins.c.s
+
+APP/Shoot.obj: APP/Shoot.c.obj
+.PHONY : APP/Shoot.obj
+
+# target to build an object file
+APP/Shoot.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.obj
+.PHONY : APP/Shoot.c.obj
+
+APP/Shoot.i: APP/Shoot.c.i
+.PHONY : APP/Shoot.i
+
+# target to preprocess a source file
+APP/Shoot.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.i
+.PHONY : APP/Shoot.c.i
+
+APP/Shoot.s: APP/Shoot.c.s
+.PHONY : APP/Shoot.s
+
+# target to generate assembly for a file
+APP/Shoot.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.s
+.PHONY : APP/Shoot.c.s
+
 APP/Transmission.obj: APP/Transmission.c.obj
 .PHONY : APP/Transmission.obj
 
@@ -224,6 +272,30 @@ BSP/Src/bsp_can.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.s
 .PHONY : BSP/Src/bsp_can.c.s
 
+BSP/Src/bsp_delay.obj: BSP/Src/bsp_delay.c.obj
+.PHONY : BSP/Src/bsp_delay.obj
+
+# target to build an object file
+BSP/Src/bsp_delay.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.obj
+.PHONY : BSP/Src/bsp_delay.c.obj
+
+BSP/Src/bsp_delay.i: BSP/Src/bsp_delay.c.i
+.PHONY : BSP/Src/bsp_delay.i
+
+# target to preprocess a source file
+BSP/Src/bsp_delay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.i
+.PHONY : BSP/Src/bsp_delay.c.i
+
+BSP/Src/bsp_delay.s: BSP/Src/bsp_delay.c.s
+.PHONY : BSP/Src/bsp_delay.s
+
+# target to generate assembly for a file
+BSP/Src/bsp_delay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.s
+.PHONY : BSP/Src/bsp_delay.c.s
+
 BSP/Src/bsp_dwt.obj: BSP/Src/bsp_dwt.c.obj
 .PHONY : BSP/Src/bsp_dwt.obj
 
@@ -248,6 +320,78 @@ BSP/Src/bsp_dwt.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.s
 .PHONY : BSP/Src/bsp_dwt.c.s
 
+BSP/Src/bsp_flash.obj: BSP/Src/bsp_flash.c.obj
+.PHONY : BSP/Src/bsp_flash.obj
+
+# target to build an object file
+BSP/Src/bsp_flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.obj
+.PHONY : BSP/Src/bsp_flash.c.obj
+
+BSP/Src/bsp_flash.i: BSP/Src/bsp_flash.c.i
+.PHONY : BSP/Src/bsp_flash.i
+
+# target to preprocess a source file
+BSP/Src/bsp_flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.i
+.PHONY : BSP/Src/bsp_flash.c.i
+
+BSP/Src/bsp_flash.s: BSP/Src/bsp_flash.c.s
+.PHONY : BSP/Src/bsp_flash.s
+
+# target to generate assembly for a file
+BSP/Src/bsp_flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.s
+.PHONY : BSP/Src/bsp_flash.c.s
+
+BSP/Src/bsp_spi.obj: BSP/Src/bsp_spi.c.obj
+.PHONY : BSP/Src/bsp_spi.obj
+
+# target to build an object file
+BSP/Src/bsp_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.obj
+.PHONY : BSP/Src/bsp_spi.c.obj
+
+BSP/Src/bsp_spi.i: BSP/Src/bsp_spi.c.i
+.PHONY : BSP/Src/bsp_spi.i
+
+# target to preprocess a source file
+BSP/Src/bsp_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.i
+.PHONY : BSP/Src/bsp_spi.c.i
+
+BSP/Src/bsp_spi.s: BSP/Src/bsp_spi.c.s
+.PHONY : BSP/Src/bsp_spi.s
+
+# target to generate assembly for a file
+BSP/Src/bsp_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.s
+.PHONY : BSP/Src/bsp_spi.c.s
+
+BSP/Src/bsp_tim.obj: BSP/Src/bsp_tim.c.obj
+.PHONY : BSP/Src/bsp_tim.obj
+
+# target to build an object file
+BSP/Src/bsp_tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.obj
+.PHONY : BSP/Src/bsp_tim.c.obj
+
+BSP/Src/bsp_tim.i: BSP/Src/bsp_tim.c.i
+.PHONY : BSP/Src/bsp_tim.i
+
+# target to preprocess a source file
+BSP/Src/bsp_tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.i
+.PHONY : BSP/Src/bsp_tim.c.i
+
+BSP/Src/bsp_tim.s: BSP/Src/bsp_tim.c.s
+.PHONY : BSP/Src/bsp_tim.s
+
+# target to generate assembly for a file
+BSP/Src/bsp_tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.s
+.PHONY : BSP/Src/bsp_tim.c.s
+
 BSP/Src/bsp_uart.obj: BSP/Src/bsp_uart.c.obj
 .PHONY : BSP/Src/bsp_uart.obj
 
@@ -271,6 +415,102 @@ BSP/Src/bsp_uart.s: BSP/Src/bsp_uart.c.s
 BSP/Src/bsp_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.s
 .PHONY : BSP/Src/bsp_uart.c.s
+
+Devices/BMI088Middleware.obj: Devices/BMI088Middleware.c.obj
+.PHONY : Devices/BMI088Middleware.obj
+
+# target to build an object file
+Devices/BMI088Middleware.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.obj
+.PHONY : Devices/BMI088Middleware.c.obj
+
+Devices/BMI088Middleware.i: Devices/BMI088Middleware.c.i
+.PHONY : Devices/BMI088Middleware.i
+
+# target to preprocess a source file
+Devices/BMI088Middleware.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.i
+.PHONY : Devices/BMI088Middleware.c.i
+
+Devices/BMI088Middleware.s: Devices/BMI088Middleware.c.s
+.PHONY : Devices/BMI088Middleware.s
+
+# target to generate assembly for a file
+Devices/BMI088Middleware.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.s
+.PHONY : Devices/BMI088Middleware.c.s
+
+Devices/BMI088driver.obj: Devices/BMI088driver.c.obj
+.PHONY : Devices/BMI088driver.obj
+
+# target to build an object file
+Devices/BMI088driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088driver.c.obj
+.PHONY : Devices/BMI088driver.c.obj
+
+Devices/BMI088driver.i: Devices/BMI088driver.c.i
+.PHONY : Devices/BMI088driver.i
+
+# target to preprocess a source file
+Devices/BMI088driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088driver.c.i
+.PHONY : Devices/BMI088driver.c.i
+
+Devices/BMI088driver.s: Devices/BMI088driver.c.s
+.PHONY : Devices/BMI088driver.s
+
+# target to generate assembly for a file
+Devices/BMI088driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088driver.c.s
+.PHONY : Devices/BMI088driver.c.s
+
+Devices/ist8310driver.obj: Devices/ist8310driver.c.obj
+.PHONY : Devices/ist8310driver.obj
+
+# target to build an object file
+Devices/ist8310driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver.c.obj
+.PHONY : Devices/ist8310driver.c.obj
+
+Devices/ist8310driver.i: Devices/ist8310driver.c.i
+.PHONY : Devices/ist8310driver.i
+
+# target to preprocess a source file
+Devices/ist8310driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver.c.i
+.PHONY : Devices/ist8310driver.c.i
+
+Devices/ist8310driver.s: Devices/ist8310driver.c.s
+.PHONY : Devices/ist8310driver.s
+
+# target to generate assembly for a file
+Devices/ist8310driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver.c.s
+.PHONY : Devices/ist8310driver.c.s
+
+Devices/ist8310driver_middleware.obj: Devices/ist8310driver_middleware.c.obj
+.PHONY : Devices/ist8310driver_middleware.obj
+
+# target to build an object file
+Devices/ist8310driver_middleware.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.obj
+.PHONY : Devices/ist8310driver_middleware.c.obj
+
+Devices/ist8310driver_middleware.i: Devices/ist8310driver_middleware.c.i
+.PHONY : Devices/ist8310driver_middleware.i
+
+# target to preprocess a source file
+Devices/ist8310driver_middleware.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.i
+.PHONY : Devices/ist8310driver_middleware.c.i
+
+Devices/ist8310driver_middleware.s: Devices/ist8310driver_middleware.c.s
+.PHONY : Devices/ist8310driver_middleware.s
+
+# target to generate assembly for a file
+Devices/ist8310driver_middleware.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.s
+.PHONY : Devices/ist8310driver_middleware.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
@@ -632,54 +872,6 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
 
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj
-
-# target to build an object file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i
-
-# target to preprocess a source file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s
-
-# target to generate assembly for a file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj
-
-# target to build an object file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i
-
-# target to preprocess a source file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s
-
-# target to generate assembly for a file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
-
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
 
@@ -943,30 +1135,6 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s: Drivers/STM32F4xx_HAL_Dri
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj
-
-# target to build an object file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i
-
-# target to preprocess a source file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s
-
-# target to generate assembly for a file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
@@ -1616,29 +1784,29 @@ Src/usart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.s
 .PHONY : Src/usart.c.s
 
-Src/usb_otg.obj: Src/usb_otg.c.obj
-.PHONY : Src/usb_otg.obj
+UserLib/MahonyAHRS.obj: UserLib/MahonyAHRS.c.obj
+.PHONY : UserLib/MahonyAHRS.obj
 
 # target to build an object file
-Src/usb_otg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.obj
-.PHONY : Src/usb_otg.c.obj
+UserLib/MahonyAHRS.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.obj
+.PHONY : UserLib/MahonyAHRS.c.obj
 
-Src/usb_otg.i: Src/usb_otg.c.i
-.PHONY : Src/usb_otg.i
+UserLib/MahonyAHRS.i: UserLib/MahonyAHRS.c.i
+.PHONY : UserLib/MahonyAHRS.i
 
 # target to preprocess a source file
-Src/usb_otg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.i
-.PHONY : Src/usb_otg.c.i
+UserLib/MahonyAHRS.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.i
+.PHONY : UserLib/MahonyAHRS.c.i
 
-Src/usb_otg.s: Src/usb_otg.c.s
-.PHONY : Src/usb_otg.s
+UserLib/MahonyAHRS.s: UserLib/MahonyAHRS.c.s
+.PHONY : UserLib/MahonyAHRS.s
 
 # target to generate assembly for a file
-Src/usb_otg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.s
-.PHONY : Src/usb_otg.c.s
+UserLib/MahonyAHRS.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.s
+.PHONY : UserLib/MahonyAHRS.c.s
 
 UserLib/calibrate.obj: UserLib/calibrate.c.obj
 .PHONY : UserLib/calibrate.obj
@@ -1712,6 +1880,30 @@ UserLib/filter32.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.s
 .PHONY : UserLib/filter32.c.s
 
+UserLib/keyboard.obj: UserLib/keyboard.c.obj
+.PHONY : UserLib/keyboard.obj
+
+# target to build an object file
+UserLib/keyboard.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.obj
+.PHONY : UserLib/keyboard.c.obj
+
+UserLib/keyboard.i: UserLib/keyboard.c.i
+.PHONY : UserLib/keyboard.i
+
+# target to preprocess a source file
+UserLib/keyboard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.i
+.PHONY : UserLib/keyboard.c.i
+
+UserLib/keyboard.s: UserLib/keyboard.c.s
+.PHONY : UserLib/keyboard.s
+
+# target to generate assembly for a file
+UserLib/keyboard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.s
+.PHONY : UserLib/keyboard.c.s
+
 UserLib/motor.obj: UserLib/motor.c.obj
 .PHONY : UserLib/motor.obj
 
@@ -1760,6 +1952,30 @@ UserLib/pid.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/pid.c.s
 .PHONY : UserLib/pid.c.s
 
+UserLib/ramp.obj: UserLib/ramp.c.obj
+.PHONY : UserLib/ramp.obj
+
+# target to build an object file
+UserLib/ramp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/ramp.c.obj
+.PHONY : UserLib/ramp.c.obj
+
+UserLib/ramp.i: UserLib/ramp.c.i
+.PHONY : UserLib/ramp.i
+
+# target to preprocess a source file
+UserLib/ramp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/ramp.c.i
+.PHONY : UserLib/ramp.c.i
+
+UserLib/ramp.s: UserLib/ramp.c.s
+.PHONY : UserLib/ramp.s
+
+# target to generate assembly for a file
+UserLib/ramp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/UserLib/ramp.c.s
+.PHONY : UserLib/ramp.c.s
+
 UserLib/user_lib.obj: UserLib/user_lib.c.obj
 .PHONY : UserLib/user_lib.obj
 
@@ -1807,18 +2023,48 @@ help:
 	@echo ... APP/Gimbal.obj
 	@echo ... APP/Gimbal.i
 	@echo ... APP/Gimbal.s
+	@echo ... APP/Ins.obj
+	@echo ... APP/Ins.i
+	@echo ... APP/Ins.s
+	@echo ... APP/Shoot.obj
+	@echo ... APP/Shoot.i
+	@echo ... APP/Shoot.s
 	@echo ... APP/Transmission.obj
 	@echo ... APP/Transmission.i
 	@echo ... APP/Transmission.s
 	@echo ... BSP/Src/bsp_can.obj
 	@echo ... BSP/Src/bsp_can.i
 	@echo ... BSP/Src/bsp_can.s
+	@echo ... BSP/Src/bsp_delay.obj
+	@echo ... BSP/Src/bsp_delay.i
+	@echo ... BSP/Src/bsp_delay.s
 	@echo ... BSP/Src/bsp_dwt.obj
 	@echo ... BSP/Src/bsp_dwt.i
 	@echo ... BSP/Src/bsp_dwt.s
+	@echo ... BSP/Src/bsp_flash.obj
+	@echo ... BSP/Src/bsp_flash.i
+	@echo ... BSP/Src/bsp_flash.s
+	@echo ... BSP/Src/bsp_spi.obj
+	@echo ... BSP/Src/bsp_spi.i
+	@echo ... BSP/Src/bsp_spi.s
+	@echo ... BSP/Src/bsp_tim.obj
+	@echo ... BSP/Src/bsp_tim.i
+	@echo ... BSP/Src/bsp_tim.s
 	@echo ... BSP/Src/bsp_uart.obj
 	@echo ... BSP/Src/bsp_uart.i
 	@echo ... BSP/Src/bsp_uart.s
+	@echo ... Devices/BMI088Middleware.obj
+	@echo ... Devices/BMI088Middleware.i
+	@echo ... Devices/BMI088Middleware.s
+	@echo ... Devices/BMI088driver.obj
+	@echo ... Devices/BMI088driver.i
+	@echo ... Devices/BMI088driver.s
+	@echo ... Devices/ist8310driver.obj
+	@echo ... Devices/ist8310driver.i
+	@echo ... Devices/ist8310driver.s
+	@echo ... Devices/ist8310driver_middleware.obj
+	@echo ... Devices/ist8310driver_middleware.i
+	@echo ... Devices/ist8310driver_middleware.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s
@@ -1864,12 +2110,6 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s
@@ -1903,9 +2143,6 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s
@@ -1987,9 +2224,9 @@ help:
 	@echo ... Src/usart.obj
 	@echo ... Src/usart.i
 	@echo ... Src/usart.s
-	@echo ... Src/usb_otg.obj
-	@echo ... Src/usb_otg.i
-	@echo ... Src/usb_otg.s
+	@echo ... UserLib/MahonyAHRS.obj
+	@echo ... UserLib/MahonyAHRS.i
+	@echo ... UserLib/MahonyAHRS.s
 	@echo ... UserLib/calibrate.obj
 	@echo ... UserLib/calibrate.i
 	@echo ... UserLib/calibrate.s
@@ -1999,12 +2236,18 @@ help:
 	@echo ... UserLib/filter32.obj
 	@echo ... UserLib/filter32.i
 	@echo ... UserLib/filter32.s
+	@echo ... UserLib/keyboard.obj
+	@echo ... UserLib/keyboard.i
+	@echo ... UserLib/keyboard.s
 	@echo ... UserLib/motor.obj
 	@echo ... UserLib/motor.i
 	@echo ... UserLib/motor.s
 	@echo ... UserLib/pid.obj
 	@echo ... UserLib/pid.i
 	@echo ... UserLib/pid.s
+	@echo ... UserLib/ramp.obj
+	@echo ... UserLib/ramp.i
+	@echo ... UserLib/ramp.s
 	@echo ... UserLib/user_lib.obj
 	@echo ... UserLib/user_lib.i
 	@echo ... UserLib/user_lib.s

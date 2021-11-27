@@ -22,7 +22,7 @@
   (#) Channel-wise programmable sampling time.
   (#) External trigger option with configurable polarity for both regular and 
       injected conversion.
-  (#) Dual/Triple mode (on devices with 2 ADCs or more).
+  (#) Dual/Triple mode (on Devices with 2 ADCs or more).
   (#) Configurable DMA data storage in Dual/Triple ADC mode. 
   (#) Configurable delay between conversions in Dual/Triple interleaved mode.
   (#) ADC conversion type (refer to the datasheets).
@@ -75,7 +75,7 @@
   (#) Optionally, configure the analog watchdog parameters (channels
       monitored, thresholds, ...) using function HAL_ADC_AnalogWDGConfig().
 
-  (#) Optionally, for devices with several ADC instances: configure the 
+  (#) Optionally, for Devices with several ADC instances: configure the
       multimode parameters using function HAL_ADCEx_MultiModeConfigChannel().
 
                        *** Execution of ADC conversions ***

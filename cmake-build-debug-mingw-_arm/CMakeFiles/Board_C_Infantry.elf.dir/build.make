@@ -91,9 +91,35 @@ CMakeFiles/Board_C_Infantry.elf.dir/APP/Gimbal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/APP/Gimbal.c.s"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\APP\Gimbal.c -o CMakeFiles\Board_C_Infantry.elf.dir\APP\Gimbal.c.s
 
+CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.obj: ../APP/Ins.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\APP\Ins.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\APP\Ins.c
+
+CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\APP\Ins.c > CMakeFiles\Board_C_Infantry.elf.dir\APP\Ins.c.i
+
+CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\APP\Ins.c -o CMakeFiles\Board_C_Infantry.elf.dir\APP\Ins.c.s
+
+CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.obj: ../APP/Shoot.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\APP\Shoot.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\APP\Shoot.c
+
+CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\APP\Shoot.c > CMakeFiles\Board_C_Infantry.elf.dir\APP\Shoot.c.i
+
+CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\APP\Shoot.c -o CMakeFiles\Board_C_Infantry.elf.dir\APP\Shoot.c.s
+
 CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj: ../APP/Transmission.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\APP\Transmission.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\APP\Transmission.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.i: cmake_force
@@ -106,7 +132,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj: ../BSP/Src/bsp_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_can.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_can.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.i: cmake_force
@@ -117,9 +143,22 @@ CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.s"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_can.c -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_can.c.s
 
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.obj: ../BSP/Src/bsp_delay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_delay.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_delay.c
+
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_delay.c > CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_delay.c.i
+
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_delay.c -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_delay.c.s
+
 CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.obj: ../BSP/Src/bsp_dwt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_dwt.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_dwt.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.i: cmake_force
@@ -130,9 +169,48 @@ CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.s"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_dwt.c -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_dwt.c.s
 
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.obj: ../BSP/Src/bsp_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_flash.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_flash.c
+
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_flash.c > CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_flash.c.i
+
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_flash.c -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_flash.c.s
+
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.obj: ../BSP/Src/bsp_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_spi.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_spi.c
+
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_spi.c > CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_spi.c.i
+
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_spi.c -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_spi.c.s
+
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.obj: ../BSP/Src/bsp_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_tim.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_tim.c
+
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_tim.c > CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_tim.c.i
+
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_tim.c -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_tim.c.s
+
 CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj: ../BSP/Src/bsp_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_uart.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_uart.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.i: cmake_force
@@ -143,9 +221,61 @@ CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.s"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src\bsp_uart.c -o CMakeFiles\Board_C_Infantry.elf.dir\BSP\Src\bsp_uart.c.s
 
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.obj: ../Devices/BMI088Middleware.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Devices\BMI088Middleware.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Devices\BMI088Middleware.c
+
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Devices\BMI088Middleware.c > CMakeFiles\Board_C_Infantry.elf.dir\Devices\BMI088Middleware.c.i
+
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Devices\BMI088Middleware.c -o CMakeFiles\Board_C_Infantry.elf.dir\Devices\BMI088Middleware.c.s
+
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088driver.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088driver.c.obj: ../Devices/BMI088driver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088driver.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Devices\BMI088driver.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Devices\BMI088driver.c
+
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088driver.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Devices\BMI088driver.c > CMakeFiles\Board_C_Infantry.elf.dir\Devices\BMI088driver.c.i
+
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088driver.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Devices\BMI088driver.c -o CMakeFiles\Board_C_Infantry.elf.dir\Devices\BMI088driver.c.s
+
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver.c.obj: ../Devices/ist8310driver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Devices\ist8310driver.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Devices\ist8310driver.c
+
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Devices\ist8310driver.c > CMakeFiles\Board_C_Infantry.elf.dir\Devices\ist8310driver.c.i
+
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Devices\ist8310driver.c -o CMakeFiles\Board_C_Infantry.elf.dir\Devices\ist8310driver.c.s
+
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.obj: ../Devices/ist8310driver_middleware.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Devices\ist8310driver_middleware.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Devices\ist8310driver_middleware.c
+
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Devices\ist8310driver_middleware.c > CMakeFiles\Board_C_Infantry.elf.dir\Devices\ist8310driver_middleware.c.i
+
+CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Devices\ist8310driver_middleware.c -o CMakeFiles\Board_C_Infantry.elf.dir\Devices\ist8310driver_middleware.c.s
+
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -158,7 +288,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
@@ -171,7 +301,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
@@ -184,7 +314,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
@@ -197,7 +327,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -210,7 +340,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i: cmake_force
@@ -223,7 +353,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -236,7 +366,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -249,7 +379,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -262,7 +392,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -275,7 +405,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -288,7 +418,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -301,7 +431,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -314,7 +444,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
@@ -327,7 +457,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
@@ -338,35 +468,9 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
 
-CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
-CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c
-
-CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c > CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.i
-
-CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.s
-
-CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
-CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c
-
-CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c > CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.i
-
-CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.s
-
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -379,7 +483,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -392,7 +496,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -405,7 +509,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -418,7 +522,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i: cmake_force
@@ -431,7 +535,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i: cmake_force
@@ -444,7 +548,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i: cmake_force
@@ -457,7 +561,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
@@ -470,7 +574,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -483,7 +587,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -496,7 +600,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -507,22 +611,9 @@ CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
-CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
-CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c
-
-CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c > CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.i
-
-CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c -o CMakeFiles\Board_C_Infantry.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.s
-
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
@@ -535,7 +626,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSI
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -548,7 +639,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/crou
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -561,7 +652,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/even
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -574,7 +665,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
@@ -587,7 +678,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/port
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -600,7 +691,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/port
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -613,7 +704,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queu
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -626,7 +717,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stre
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -639,7 +730,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/task
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -652,7 +743,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/time
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/adc.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/adc.c.obj: ../Src/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/adc.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\adc.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\adc.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/adc.c.i: cmake_force
@@ -665,7 +756,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/adc.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/can.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/can.c.obj: ../Src/can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/can.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\can.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\can.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/can.c.i: cmake_force
@@ -678,7 +769,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/can.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/crc.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/crc.c.obj: ../Src/crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/crc.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\crc.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\crc.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/crc.c.i: cmake_force
@@ -691,7 +782,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/crc.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/dma.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/dma.c.obj: ../Src/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/dma.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\dma.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\dma.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/dma.c.i: cmake_force
@@ -704,7 +795,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/dma.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/freertos.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/freertos.c.obj: ../Src/freertos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/freertos.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\freertos.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\freertos.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/freertos.c.i: cmake_force
@@ -717,7 +808,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/freertos.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/gpio.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/gpio.c.obj: ../Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/gpio.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\gpio.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\gpio.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/gpio.c.i: cmake_force
@@ -730,7 +821,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/gpio.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/i2c.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/i2c.c.obj: ../Src/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/i2c.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\i2c.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\i2c.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/i2c.c.i: cmake_force
@@ -743,7 +834,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/i2c.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/main.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/main.c.obj: ../Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/main.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\main.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\main.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/main.c.i: cmake_force
@@ -756,7 +847,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/main.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/rng.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/rng.c.obj: ../Src/rng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/rng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/rng.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\rng.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\rng.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/rng.c.i: cmake_force
@@ -769,7 +860,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/rng.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/rtc.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/rtc.c.obj: ../Src/rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/rtc.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\rtc.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\rtc.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/rtc.c.i: cmake_force
@@ -782,7 +873,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/rtc.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/spi.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/spi.c.obj: ../Src/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/spi.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\spi.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\spi.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/spi.c.i: cmake_force
@@ -795,7 +886,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/spi.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_hal_msp.c.obj: ../Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\stm32f4xx_hal_msp.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -808,7 +899,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_it.c.obj: ../Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_it.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\stm32f4xx_it.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\stm32f4xx_it.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_it.c.i: cmake_force
@@ -821,7 +912,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_it.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/syscalls.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/syscalls.c.obj: ../Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/syscalls.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\syscalls.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\syscalls.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/syscalls.c.i: cmake_force
@@ -834,7 +925,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/system_stm32f4xx.c.obj: ../Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/system_stm32f4xx.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\system_stm32f4xx.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\system_stm32f4xx.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/system_stm32f4xx.c.i: cmake_force
@@ -847,7 +938,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/system_stm32f4xx.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/tim.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/tim.c.obj: ../Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/tim.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\tim.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\tim.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/tim.c.i: cmake_force
@@ -860,7 +951,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/tim.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.obj: ../Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\usart.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\usart.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.i: cmake_force
@@ -871,22 +962,22 @@ CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.s"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\usart.c -o CMakeFiles\Board_C_Infantry.elf.dir\Src\usart.c.s
 
-CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
-CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.obj: ../Src/usb_otg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\Src\usb_otg.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\usb_otg.c
+CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.obj: ../UserLib/MahonyAHRS.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\MahonyAHRS.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\MahonyAHRS.c
 
-CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\usb_otg.c > CMakeFiles\Board_C_Infantry.elf.dir\Src\usb_otg.c.i
+CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\MahonyAHRS.c > CMakeFiles\Board_C_Infantry.elf.dir\UserLib\MahonyAHRS.c.i
 
-CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\Src\usb_otg.c -o CMakeFiles\Board_C_Infantry.elf.dir\Src\usb_otg.c.s
+CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\MahonyAHRS.c -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\MahonyAHRS.c.s
 
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj: ../UserLib/calibrate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\calibrate.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\calibrate.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.i: cmake_force
@@ -899,7 +990,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/controller.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/controller.c.obj: ../UserLib/controller.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/controller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/controller.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\controller.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\controller.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/controller.c.i: cmake_force
@@ -912,7 +1003,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/UserLib/controller.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.obj: ../UserLib/filter32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\filter32.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\filter32.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.i: cmake_force
@@ -923,9 +1014,22 @@ CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.s"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\filter32.c -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\filter32.c.s
 
+CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.obj: ../UserLib/keyboard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\keyboard.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\keyboard.c
+
+CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\keyboard.c > CMakeFiles\Board_C_Infantry.elf.dir\UserLib\keyboard.c.i
+
+CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\keyboard.c -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\keyboard.c.s
+
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.obj: ../UserLib/motor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\motor.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\motor.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.i: cmake_force
@@ -938,7 +1042,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/pid.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/pid.c.obj: ../UserLib/pid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/pid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/pid.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\pid.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\pid.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/pid.c.i: cmake_force
@@ -949,9 +1053,22 @@ CMakeFiles/Board_C_Infantry.elf.dir/UserLib/pid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/UserLib/pid.c.s"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\pid.c -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\pid.c.s
 
+CMakeFiles/Board_C_Infantry.elf.dir/UserLib/ramp.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
+CMakeFiles/Board_C_Infantry.elf.dir/UserLib/ramp.c.obj: ../UserLib/ramp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/ramp.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\ramp.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\ramp.c
+
+CMakeFiles/Board_C_Infantry.elf.dir/UserLib/ramp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Board_C_Infantry.elf.dir/UserLib/ramp.c.i"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\ramp.c > CMakeFiles\Board_C_Infantry.elf.dir\UserLib\ramp.c.i
+
+CMakeFiles/Board_C_Infantry.elf.dir/UserLib/ramp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Board_C_Infantry.elf.dir/UserLib/ramp.c.s"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\ramp.c -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\ramp.c.s
+
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/user_lib.c.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/user_lib.c.obj: ../UserLib/user_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/user_lib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/Board_C_Infantry.elf.dir/UserLib/user_lib.c.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\UserLib\user_lib.c.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\UserLib\user_lib.c
 
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/user_lib.c.i: cmake_force
@@ -964,7 +1081,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/UserLib/user_lib.c.s: cmake_force
 
 CMakeFiles/Board_C_Infantry.elf.dir/startup/startup_stm32f407xx.s.obj: CMakeFiles/Board_C_Infantry.elf.dir/flags.make
 CMakeFiles/Board_C_Infantry.elf.dir/startup/startup_stm32f407xx.s.obj: ../startup/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building ASM object CMakeFiles/Board_C_Infantry.elf.dir/startup/startup_stm32f407xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building ASM object CMakeFiles/Board_C_Infantry.elf.dir/startup/startup_stm32f407xx.s.obj"
 	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Board_C_Infantry.elf.dir\startup\startup_stm32f407xx.s.obj -c D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\startup\startup_stm32f407xx.s
 
 CMakeFiles/Board_C_Infantry.elf.dir/startup/startup_stm32f407xx.s.i: cmake_force
@@ -979,10 +1096,20 @@ CMakeFiles/Board_C_Infantry.elf.dir/startup/startup_stm32f407xx.s.s: cmake_force
 Board_C_Infantry_elf_OBJECTS = \
 "CMakeFiles/Board_C_Infantry.elf.dir/APP/Detect.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/APP/Gimbal.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088driver.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" \
@@ -998,8 +1125,6 @@ Board_C_Infantry_elf_OBJECTS = \
 "CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj" \
-"CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj" \
-"CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
@@ -1011,7 +1136,6 @@ Board_C_Infantry_elf_OBJECTS = \
 "CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
-"CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" \
@@ -1039,12 +1163,14 @@ Board_C_Infantry_elf_OBJECTS = \
 "CMakeFiles/Board_C_Infantry.elf.dir/Src/system_stm32f4xx.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Src/tim.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.obj" \
-"CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/UserLib/controller.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/UserLib/pid.c.obj" \
+"CMakeFiles/Board_C_Infantry.elf.dir/UserLib/ramp.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/UserLib/user_lib.c.obj" \
 "CMakeFiles/Board_C_Infantry.elf.dir/startup/startup_stm32f407xx.s.obj"
 
@@ -1053,10 +1179,20 @@ Board_C_Infantry_elf_EXTERNAL_OBJECTS =
 
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/APP/Detect.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/APP/Gimbal.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088driver.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
@@ -1072,8 +1208,6 @@ Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
-Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
@@ -1085,7 +1219,6 @@ Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
@@ -1113,18 +1246,20 @@ Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Src/syscalls.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Src/system_stm32f4xx.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Src/tim.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.obj
-Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/UserLib/controller.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/UserLib/pid.c.obj
+Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/UserLib/ramp.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/UserLib/user_lib.c.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/startup/startup_stm32f407xx.s.obj
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/build.make
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/objects1.rsp
 Board_C_Infantry.elf: CMakeFiles/Board_C_Infantry.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking C executable Board_C_Infantry.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Linking C executable Board_C_Infantry.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Board_C_Infantry.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/Board_C_Infantry.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/cmake-build-debug-mingw-_arm/Board_C_Infantry.bin"

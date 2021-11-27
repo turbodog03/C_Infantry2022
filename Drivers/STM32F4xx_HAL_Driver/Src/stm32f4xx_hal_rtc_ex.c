@@ -38,7 +38,7 @@
     (+) To read the RTC TimeStamp Time and Date register, use the HAL_RTCEx_GetTimeStamp()
         function.
     (+) The TIMESTAMP alternate function can be mapped either to RTC_AF1 (PC13)
-        or RTC_AF2 (PI8 or PA0 only for STM32F446xx devices) depending on the value of TSINSEL bit in
+        or RTC_AF2 (PI8 or PA0 only for STM32F446xx Devices) depending on the value of TSINSEL bit in
         RTC_TAFCR register. The corresponding pin is also selected by HAL_RTCEx_SetTimeStamp()
         or HAL_RTCEx_SetTimeStamp_IT() function.
 
@@ -51,7 +51,7 @@
         HAL_RTCEx_SetTamper() function. You can configure RTC Tamper in interrupt
         mode using HAL_RTCEx_SetTamper_IT() function.
     (+) The TAMPER1 alternate function can be mapped either to RTC_AF1 (PC13)
-        or RTC_AF2 (PI8 or PA0 only for STM32F446xx devices) depending on the value of TAMP1INSEL bit in
+        or RTC_AF2 (PI8 or PA0 only for STM32F446xx Devices) depending on the value of TAMP1INSEL bit in
         RTC_TAFCR register. The corresponding pin is also selected by HAL_RTCEx_SetTamper()
         or HAL_RTCEx_SetTamper_IT() function.
 
@@ -133,9 +133,9 @@
   *          This parameter can be one of the following values:
   *             @arg RTC_TIMESTAMPPIN_DEFAULT: PC13 is selected as RTC TimeStamp Pin.
   *             @arg RTC_TIMESTAMPPIN_POS1: PI8/PA0 is selected as RTC TimeStamp Pin.
-  *             (not applicable in the case of STM32F412xx, STM32F413xx and STM32F423xx devices)
-  *             (PI8 for all STM32 devices except for STM32F446xx devices the PA0 is used)
-  *             @arg RTC_TIMESTAMPPIN_PA0: PA0 is selected as RTC TimeStamp Pin only for STM32F446xx devices
+  *             (not applicable in the case of STM32F412xx, STM32F413xx and STM32F423xx Devices)
+  *             (PI8 for all STM32 Devices except for STM32F446xx Devices the PA0 is used)
+  *             @arg RTC_TIMESTAMPPIN_PA0: PA0 is selected as RTC TimeStamp Pin only for STM32F446xx Devices
   * @retval HAL status
   */
 HAL_StatusTypeDef HAL_RTCEx_SetTimeStamp(RTC_HandleTypeDef *hrtc, uint32_t TimeStampEdge, uint32_t RTC_TimeStampPin)
@@ -194,8 +194,8 @@ HAL_StatusTypeDef HAL_RTCEx_SetTimeStamp(RTC_HandleTypeDef *hrtc, uint32_t TimeS
   * @param  RTC_TimeStampPin Specifies the RTC TimeStamp Pin.
   *          This parameter can be one of the following values:
   *             @arg RTC_TIMESTAMPPIN_DEFAULT: PC13 is selected as RTC TimeStamp Pin.
-  *             @arg RTC_TIMESTAMPPIN_PI8: PI8 is selected as RTC TimeStamp Pin. (not applicable in the case of STM32F446xx, STM32F412xx, STM32F413xx and STM32F423xx devices)
-  *             @arg RTC_TIMESTAMPPIN_PA0: PA0 is selected as RTC TimeStamp Pin only for STM32F446xx devices
+  *             @arg RTC_TIMESTAMPPIN_PI8: PI8 is selected as RTC TimeStamp Pin. (not applicable in the case of STM32F446xx, STM32F412xx, STM32F413xx and STM32F423xx Devices)
+  *             @arg RTC_TIMESTAMPPIN_PA0: PA0 is selected as RTC TimeStamp Pin only for STM32F446xx Devices
   * @retval HAL status
   */
 HAL_StatusTypeDef HAL_RTCEx_SetTimeStamp_IT(RTC_HandleTypeDef *hrtc, uint32_t TimeStampEdge, uint32_t RTC_TimeStampPin)

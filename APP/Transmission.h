@@ -6,7 +6,8 @@
 #define TRANSMISSION_H
 #include "cmsis_os.h"
 #include "gpio.h"
-
+#include "Gimbal.h"
+#include "keyboard.h"
 /**
   * @brief     CAN 设备发送和接收 ID 枚举
   */
@@ -74,42 +75,8 @@ enum
     RC_MI = 3,
     RC_DN = 2,
 };
-/**
-  * @brief     云台控制信号输入状态枚举
-  */
-typedef enum
-{
-    NO_ACTION = 0,           //无控制信号输入
-    IS_ACTION,               //有控制信号输入
-} action_mode_e;
-/**
-  * @brief     云台控制模式枚举
-  */
-typedef enum
-{
-    GIMBAL_INIT = 0,         //云台初始化
-    GIMBAL_RELAX = 1,            //云台断电
-    GIMBAL_CLOSE_LOOP_ZGYRO = 2, //云台跟随imu z轴角度
-    GIMBAL_NO_ACTION = 3,        //无手动信号输入状态
-    GIMBAL_AUTO	= 4						 //云台自瞄模式
-} gimbal_mode_e;
-/**
-  * @brief     云台控制数据结构体
-  */
-typedef struct
-{
-    gimbal_mode_e ctrl_mode; //云台当前控制模式
-    gimbal_mode_e last_mode; //云台上次控制模式
 
-    action_mode_e ac_mode;   //云台控制信号输入模式
 
-    uint8_t  no_action_flag; //无控制信号标志
-    uint32_t no_action_time; //无控制信号时间
-
-    float ecd_offset_angle;  //云台初始编码器值
-    float yaw_offset_angle;  //云台初始 yaw 轴角度
-    float pit_offset_angle;  //云台初始 yaw 轴角度
-} gimbal_yaw_t;
 /**
   * @brief     底盘控制模式枚举
   */
@@ -141,57 +108,7 @@ typedef struct
     uint8_t         last_sw2;
 } chassis_t;
 
-/**********************************************************************************
- * bit      :15   14   13   12   11   10   9   8   7   6     5     4   3   2   1
- * keyboard : V    C    X	  Z    G    F    R   E   Q  CTRL  SHIFT  D   A   S   W
- **********************************************************************************/
 
-/**
-  * @brief     底盘运动速度快慢模式
-  */
-typedef enum
-{
-    NORMAL_MODE = 0,    //正常模式
-    FAST_MODE,          //快速模式
-    SLOW_MODE,          //慢速模式
-} kb_move_e;
-
-/**
-  * @brief     鼠标按键状态类型枚举
-  */
-typedef enum
-{
-    KEY_RELEASE = 0,    //没有按键按下
-    KEY_WAIT_EFFECTIVE, //等待按键按下有效，防抖
-    KEY_PRESS_ONCE,     //按键按下一次的状态
-    KEY_PRESS_DOWN,     //按键已经被按下
-    KEY_PRESS_LONG,     //按键长按状态
-} kb_state_e;
-/**
-  * @brief     键盘鼠标数据结构体
-  */
-typedef struct
-{
-    /* 键盘模式使能标志 */
-    uint8_t kb_enable;
-
-    /* 鼠标键盘控制模式下的底盘移动速度目标值 */
-    float vx;          //底盘前进后退目标速度
-    float vy;          //底盘左右平移目标速度
-    float vw;          //底盘旋转速度
-    float max_spd;     //运动最大速度
-
-    /* 左右按键状态 */
-    kb_state_e lk_sta; //左侧按键状态
-    kb_state_e rk_sta; //右侧按键状态
-
-    uint16_t lk_cnt;
-    uint16_t rk_cnt;
-
-    /* 运动模式，键盘控制底盘运动快慢 */
-    kb_move_e move_mode;
-
-} km_control_t;
 
 
 #endif //TRANSMISSION_H

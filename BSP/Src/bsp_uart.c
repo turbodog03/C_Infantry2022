@@ -8,10 +8,99 @@
 #include <string.h>
 #include <can.h>
 #include <bsp_can.h>
+#include <calibrate.h>
+#include <Gimbal.h>
+#include <stdio.h>
+#include <usart.h>
+#include "Detect.h"
 
 extern UART_HandleTypeDef huart3;
 extern DMA_HandleTypeDef hdma_usart3_rx;
+extern global_cali_t glb_cali_data;
+extern gimbal_yaw_t gim;
+extern float yaw_angle_ref,pit_angle_ref;
+extern uint8_t send_flag;
+char print_buf[50];
 
+//ext_power_heat_data_t heat_data;
+
+
+uint8_t		nuc_recv[NUC_FRAME_SIZE];
+uint8_t		referee_recv[REFEREE_FRAME_SIZE];
+uint8_t		bluetooth_recv[BLUETOOTH_FRAME_SIZE];
+//float pc_angle[2]={0.0,0.0};
+float amplitude=50.0f;
+/**
+  * @brief     自瞄中断回调函数，在设置 UART 接收时注册
+  */
+extern uint16_t crc16_check(uint8_t* data, uint32_t length);
+int PcWatchdog=0;
+recv_frame data_recv;
+void nuc_uart_callback(void)
+{
+    if(((uint16_t*)nuc_recv)[0]==0xaaaa)
+    {
+        PcWatchdog++;
+        if(gim.ctrl_mode==GIMBAL_AUTO)
+        {
+            //PE4置位
+            //GPIOE->BSRR=0x10;
+            memcpy((void*)&data_recv,nuc_recv,sizeof(data_recv));
+            //PE4复位
+            //GPIOE->BSRR=0x100000;
+
+        }
+    }
+}
+
+void bluetooth_uart_callback(void)
+{
+    float value=0.0f;
+    char type=0;
+
+    bluetooth_recv[BLUETOOTH_FRAME_SIZE-1]='\n';
+    sscanf((const char *)bluetooth_recv,"%c%f",&type,&value);
+    switch(type)
+    {
+////		case 'A':
+////			amplitude=value;
+//		case 'p':
+//			pid_pit.p=value;
+//			break;
+//		case 'i':
+//			pid_pit.i=value;
+//			break;
+//		case 'd':
+//			pid_pit.d=value;
+//			break;
+//		case 'P':
+//			pid_pit_speed.p=value;
+//			break;
+//		case 'I':
+//			pid_pit_speed.i=value;
+//			break;
+//		case 'D':
+//			pid_pit_speed.d=value;
+//			break;
+//大写字母调内环，小写字母调外环
+    }
+    //memcpy(nmb,bluetooth_recv,sizeof(nmb));
+    //if (glb_cali_data.gimbal_cali_data.calied_flag != CALIED_FLAG)
+    //glb_cali_data.gimbal_cali_data.cali_cmd = 1;
+//	sprintf(mmp_buf,"%f\n",pid_yaw_speed.p);
+//	write_uart(BLUETOOTH_UART,(uint8_t *)mmp_buf,20);
+//	sprintf(mmp_buf,"%f\n",pid_yaw_speed.i);
+//	write_uart(BLUETOOTH_UART,(uint8_t *)mmp_buf,20);
+//	sprintf(mmp_buf,"%f\n",pid_yaw_speed.d);
+//	write_uart(BLUETOOTH_UART,(uint8_t *)mmp_buf,20);
+
+//	if(nmb[0]>0)
+//	{
+//		pid_yaw.p=nmb[0];
+//		pid_yaw.i=nmb[1];
+//		pid_yaw.d=nmb[2];
+//	}
+}
 /**
   * @brief          remote control protocol resolution
   * @param[in]      sbus_buf: raw data point
@@ -260,4 +349,25 @@ void RC_init(uint8_t *rx1_buf, uint8_t *rx2_buf, uint16_t dma_buf_num)
 
 }
 
+void write_uart(uint8_t uart_id, uint8_t *send_data, uint16_t size){
+    switch(uart_id){
+        case 1:
+        {
+            HAL_UART_Transmit(&huart1,send_data,size,HAL_MAX_DELAY);
+            break;
+        }
+        case 3:
+        {
+            HAL_UART_Transmit(&huart3,send_data,size,HAL_MAX_DELAY);
+            break;
+        }
+        case 6:
+        {
+            HAL_UART_Transmit(&huart6,send_data,size,HAL_MAX_DELAY);
+            break;
+        }
+        default:
+            break;
+    }
+}
 

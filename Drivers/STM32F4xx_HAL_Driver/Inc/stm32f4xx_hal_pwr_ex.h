@@ -146,13 +146,13 @@
 #if defined(STM32F427xx) || defined(STM32F437xx) || defined(STM32F429xx) || defined(STM32F439xx) ||\
     defined(STM32F446xx) || defined(STM32F469xx) || defined(STM32F479xx)
 /** @brief Macros to enable or disable the Over drive mode.
-  * @note  These macros can be used only for STM32F42xx/STM3243xx devices.
+  * @note  These macros can be used only for STM32F42xx/STM3243xx Devices.
   */
 #define __HAL_PWR_OVERDRIVE_ENABLE() (*(__IO uint32_t *) CR_ODEN_BB = ENABLE)
 #define __HAL_PWR_OVERDRIVE_DISABLE() (*(__IO uint32_t *) CR_ODEN_BB = DISABLE)
 
 /** @brief Macros to enable or disable the Over drive switching.
-  * @note  These macros can be used only for STM32F42xx/STM3243xx devices. 
+  * @note  These macros can be used only for STM32F42xx/STM3243xx Devices.
   */
 #define __HAL_PWR_OVERDRIVESWITCHING_ENABLE() (*(__IO uint32_t *) CR_ODSWEN_BB = ENABLE)
 #define __HAL_PWR_OVERDRIVESWITCHING_DISABLE() (*(__IO uint32_t *) CR_ODSWEN_BB = DISABLE)
@@ -171,7 +171,7 @@
 #define __HAL_PWR_UNDERDRIVE_DISABLE() (PWR->CR &= (uint32_t)(~PWR_CR_UDEN))
 
 /** @brief  Check PWR flag is set or not.
-  * @note   These macros can be used only for STM32F42xx/STM3243xx devices.
+  * @note   These macros can be used only for STM32F42xx/STM3243xx Devices.
   * @param  __FLAG__ specifies the flag to check.
   *         This parameter can be one of the following values:
   *            @arg PWR_FLAG_ODRDY: This flag indicates that the Over-drive mode
@@ -185,7 +185,7 @@
 #define __HAL_PWR_GET_ODRUDR_FLAG(__FLAG__) ((PWR->CSR & (__FLAG__)) == (__FLAG__))
 
 /** @brief Clear the Under-Drive Ready flag.
-  * @note  These macros can be used only for STM32F42xx/STM3243xx devices.
+  * @note  These macros can be used only for STM32F42xx/STM3243xx Devices.
   */
 #define __HAL_PWR_CLEAR_ODRUDR_FLAG() (PWR->CSR |= PWR_FLAG_UDRDY)
 

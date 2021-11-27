@@ -16,7 +16,9 @@
 #include "stdint.h"
 #include "main.h"
 #include "cmsis_os.h"
-
+typedef float fp32;
+typedef double fp64;
+typedef unsigned char bool_t;
 
 enum
 {

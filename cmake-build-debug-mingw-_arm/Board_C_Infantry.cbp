@@ -33,6 +33,7 @@
 					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP"/>
 					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Inc"/>
 					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Custom"/>
+					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Devices"/>
 					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib"/>
 					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Inc"/>
 					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
@@ -71,6 +72,7 @@
 					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP"/>
 					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Inc"/>
 					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Custom"/>
+					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Devices"/>
 					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib"/>
 					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Inc"/>
 					<Add directory="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
@@ -126,6 +128,18 @@
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Gimbal.h">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Ins.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Ins.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Shoot.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Shoot.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/APP/Transmission.c">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
@@ -135,10 +149,52 @@
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_can.c">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_delay.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_delay.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_dwt.c">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_flash.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_spi.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_tim.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_uart.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Devices/BMI088Middleware.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Devices/BMI088Middleware.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Devices/BMI088driver.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Devices/BMI088driver.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Devices/BMI088reg.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Devices/ist8310driver.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Devices/ist8310driver.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Devices/ist8310driver_middleware.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Devices/ist8310driver_middleware.h">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
@@ -267,12 +323,6 @@
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
-		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
-			<Option target="Board_C_Infantry.elf"/>
-		</Unit>
-		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
-			<Option target="Board_C_Infantry.elf"/>
-		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
@@ -304,9 +354,6 @@
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
-			<Option target="Board_C_Infantry.elf"/>
-		</Unit>
-		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
@@ -354,12 +401,6 @@
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
-		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
-			<Option target="Board_C_Infantry.elf"/>
-		</Unit>
-		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
-			<Option target="Board_C_Infantry.elf"/>
-		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
@@ -391,9 +432,6 @@
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
-			<Option target="Board_C_Infantry.elf"/>
-		</Unit>
-		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
@@ -537,7 +575,10 @@
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/usart.c">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
-		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/Src/usb_otg.c">
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/MahonyAHRS.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/MahonyAHRS.h">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/arm_math.h">
@@ -561,6 +602,12 @@
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/filter32.h">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/keyboard.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/keyboard.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/motor.c">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
@@ -571,6 +618,12 @@
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/pid.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/ramp.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/ramp.h">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/UserLib/user_lib.c">

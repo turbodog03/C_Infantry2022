@@ -34,7 +34,7 @@
   ==============================================================================
     [..]                             
       This driver provides functions and macros to configure and program the FLASH 
-      memory of all STM32F4xx devices.
+      memory of all STM32F4xx Devices.
     
       (#) FLASH Memory IO Programming functions: 
            (++) Lock and Unlock the FLASH interface using HAL_FLASH_Unlock() and 

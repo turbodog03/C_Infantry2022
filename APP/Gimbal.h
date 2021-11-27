@@ -6,8 +6,7 @@
 #define BOARD_C_INFANTRY_GIMBAL_H
 
 #include "stm32f4xx_hal.h"
-#include "rm_hal_lib.h"
-
+#include "bsp_imu.h"
 /* 云台控制周期 (ms) */
 #define GIMBAL_PERIOD 5
 /* 云台回中初始化时间 (ms) */

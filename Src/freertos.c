@@ -52,6 +52,7 @@ osThreadId SHOOT_TASKHandle;
 osThreadId GIMBAL_TASKHandle;
 osThreadId TRANSMISSTIN_TAHandle;
 osThreadId DETECT_TASKHandle;
+osThreadId INS_TASKHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -62,6 +63,7 @@ void shoot_task(void const * argument);
 void gimbal_task(void const * argument);
 void transmission_task(void const * argument);
 void detect_task(void const * argument);
+void ins_task(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -140,6 +142,10 @@ void MX_FREERTOS_Init(void) {
   osThreadDef(DETECT_TASK, detect_task, osPriorityNormal, 0, 128);
   DETECT_TASKHandle = osThreadCreate(osThread(DETECT_TASK), NULL);
 
+  /* definition and creation of INS_TASK */
+  osThreadDef(INS_TASK, ins_task, osPriorityIdle, 0, 128);
+  INS_TASKHandle = osThreadCreate(osThread(INS_TASK), NULL);
+
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
@@ -216,6 +222,24 @@ __weak void detect_task(void const * argument)
     osDelay(1);
   }
   /* USER CODE END detect_task */
+}
+
+/* USER CODE BEGIN Header_ins_task */
+/**
+* @brief Function implementing the INS_TASK thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_ins_task */
+void ins_task(void const * argument)
+{
+  /* USER CODE BEGIN ins_task */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END ins_task */
 }
 
 /* Private application code --------------------------------------------------*/

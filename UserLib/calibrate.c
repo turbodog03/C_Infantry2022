@@ -32,9 +32,8 @@
 
 
 
-#include "rm_hal_lib.h"
-#include "calibrate.h"
-#include "can_device.h"
+#include <bsp_can.h>
+#include <bsp_flash.h>
 #include "calibrate.h"
 /* 全局校准数据结构体 */
 global_cali_t glb_cali_data;
