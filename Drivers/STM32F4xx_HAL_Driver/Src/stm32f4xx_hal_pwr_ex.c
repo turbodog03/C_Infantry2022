@@ -355,7 +355,7 @@ HAL_StatusTypeDef HAL_PWREx_ControlVoltageScaling(uint32_t VoltageScaling)
 /**
   * @brief Enables Main Regulator low voltage mode.
   * @note  This mode is only available for STM32F401xx/STM32F410xx/STM32F411xx/STM32F412Zx/STM32F412Rx/STM32F412Vx/STM32F412Cx/
-  *        STM32F413xx/STM32F423xx Devices.
+  *        STM32F413xx/STM32F423xx devices.   
   * @retval None
   */
 void HAL_PWREx_EnableMainRegulatorLowVoltage(void)
@@ -377,7 +377,7 @@ void HAL_PWREx_DisableMainRegulatorLowVoltage(void)
 /**
   * @brief Enables Low Power Regulator low voltage mode.
   * @note  This mode is only available for STM32F401xx/STM32F410xx/STM32F411xx/STM32F412Zx/STM32F412Rx/STM32F412Vx/STM32F412Cx/
-  *        STM32F413xx/STM32F423xx Devices.
+  *        STM32F413xx/STM32F423xx devices.   
   * @retval None
   */
 void HAL_PWREx_EnableLowRegulatorLowVoltage(void)
@@ -388,7 +388,7 @@ void HAL_PWREx_EnableLowRegulatorLowVoltage(void)
 /**
   * @brief Disables Low Power Regulator low voltage mode.
   * @note  This mode is only available for STM32F401xx/STM32F410xx/STM32F411xx/STM32F412Zx/STM32F412Rx/STM32F412Vx/STM32F412Cx/
-  *        STM32F413xx/STM32F423xx  Devices.
+  *        STM32F413xx/STM32F423xx  devices.   
   * @retval None
   */
 void HAL_PWREx_DisableLowRegulatorLowVoltage(void)
@@ -403,7 +403,7 @@ void HAL_PWREx_DisableLowRegulatorLowVoltage(void)
     defined(STM32F446xx) || defined(STM32F469xx) || defined(STM32F479xx)
 /**
   * @brief  Activates the Over-Drive mode.
-  * @note   This function can be used only for STM32F42xx/STM32F43xx/STM32F446xx/STM32F469xx/STM32F479xx Devices.
+  * @note   This function can be used only for STM32F42xx/STM32F43xx/STM32F446xx/STM32F469xx/STM32F479xx devices.
   *         This mode allows the CPU and the core logic to operate at a higher frequency
   *         than the normal mode for a given voltage scaling (scale 1, scale 2 or scale 3).   
   * @note   It is recommended to enter or exit Over-drive mode when the application is not running 
@@ -450,7 +450,7 @@ HAL_StatusTypeDef HAL_PWREx_EnableOverDrive(void)
 
 /**
   * @brief  Deactivates the Over-Drive mode.
-  * @note   This function can be used only for STM32F42xx/STM32F43xx/STM32F446xx/STM32F469xx/STM32F479xx Devices.
+  * @note   This function can be used only for STM32F42xx/STM32F43xx/STM32F446xx/STM32F469xx/STM32F479xx devices.
   *         This mode allows the CPU and the core logic to operate at a higher frequency
   *         than the normal mode for a given voltage scaling (scale 1, scale 2 or scale 3).    
   * @note   It is recommended to enter or exit Over-drive mode when the application is not running 
@@ -499,7 +499,7 @@ HAL_StatusTypeDef HAL_PWREx_DisableOverDrive(void)
 /**
   * @brief  Enters in Under-Drive STOP mode.
   *  
-  * @note   This mode is only available for STM32F42xxx/STM32F43xxx/STM32F446xx/STM32F469xx/STM32F479xx Devices.
+  * @note   This mode is only available for STM32F42xxx/STM32F43xxx/STM32F446xx/STM32F469xx/STM32F479xx devices.
   * 
   * @note    This mode can be selected only when the Under-Drive is already active 
   *   

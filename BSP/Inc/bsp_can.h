@@ -6,6 +6,7 @@
 #define BSP_CAN_H
 
 #include <motor.h>
+#include <Transmission.h>
 #include "stm32f4xx_hal_def.h"
 
 #define CAN_RC_DATA_Frame_0 0x131
@@ -13,16 +14,17 @@
 static CAN_TxHeaderTypeDef  tx_message;
 static uint8_t              can_send_data[8];
 extern Motor_t ChassisMotor[4];
+extern chassis_mode_e chassis_mode;
 typedef enum
 {
     //接收ID
-    CAN_3508_M1_ID       = 0x201,
-    CAN_3508_M2_ID       = 0x202,
-    CAN_3508_M3_ID       = 0x203,
+    CAN_3508_M1_ID       = 0x201,//拨弹电机
+    CAN_3508_M2_ID       = 0x202,//左摩擦轮
+    CAN_3508_M3_ID       = 0x203,//右摩擦轮
     CAN_3508_M4_ID       = 0x204,
     CAN_YAW_MOTOR_ID     = 0x205,//ID 1 001
     CAN_PIT_MOTOR_ID     = 0x206,//ID 2 010
-    CAN_TRIGGER_MOTOR_ID = 0x207,
+    //CAN_TRIGGER_MOTOR_ID = 0x207,
     CAN_SUPERCAP_RECV    = 0x211,
     //发送ID
     CAN_CHASSIS_ID       = 0x200,

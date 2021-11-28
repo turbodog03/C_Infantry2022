@@ -12,8 +12,8 @@
                    ##### Flash Extension features #####
   ==============================================================================
            
-  [..] Comparing to other previous Devices, the FLASH interface for STM32F427xx/437xx and
-       STM32F429xx/439xx Devices contains the following additional features
+  [..] Comparing to other previous devices, the FLASH interface for STM32F427xx/437xx and 
+       STM32F429xx/439xx devices contains the following additional features 
        
        (+) Capacity up to 2 Mbyte with dual bank architecture supporting read-while-write
            capability (RWW)
@@ -24,7 +24,7 @@
   ==============================================================================
   [..] This driver provides functions to configure and program the FLASH memory 
        of all STM32F427xx/437xx, STM32F429xx/439xx, STM32F469xx/479xx and STM32F446xx 
-       Devices. It includes
+       devices. It includes
       (#) FLASH Memory Erase functions: 
            (++) Lock and Unlock the FLASH interface using HAL_FLASH_Unlock() and 
                 HAL_FLASH_Lock() functions
@@ -455,7 +455,7 @@ void HAL_FLASHEx_AdvOBGetConfig(FLASH_AdvOBProgramInitTypeDef *pAdvOBInit)
   * @note   Once SPRMOD bit is active unprotection of a protected sector is not possible 
   * @note   Read a protected sector will set RDERR Flag and write a protected sector will set WRPERR Flag
   * @note   This function can be used only for STM32F42xxx/STM32F43xxx/STM32F401xx/STM32F411xx/STM32F446xx/
-  *         STM32F469xx/STM32F479xx/STM32F412xx/STM32F413xx Devices.
+  *         STM32F469xx/STM32F479xx/STM32F412xx/STM32F413xx devices.
   * 
   * @retval HAL Status
   */
@@ -480,7 +480,7 @@ HAL_StatusTypeDef HAL_FLASHEx_OB_SelectPCROP(void)
   * @note   Once SPRMOD bit is active unprotection of a protected sector is not possible 
   * @note   Read a protected sector will set RDERR Flag and write a protected sector will set WRPERR Flag
   * @note   This function can be used only for STM32F42xxx/STM32F43xxx/STM32F401xx/STM32F411xx/STM32F446xx/
-  *         STM32F469xx/STM32F479xx/STM32F412xx/STM32F413xx Devices.
+  *         STM32F469xx/STM32F479xx/STM32F412xx/STM32F413xx devices.
   * 
   * @retval HAL Status
   */
@@ -503,7 +503,7 @@ HAL_StatusTypeDef HAL_FLASHEx_OB_DeSelectPCROP(void)
 #if defined(STM32F427xx) || defined(STM32F437xx) || defined(STM32F429xx)|| defined(STM32F439xx) || defined(STM32F469xx) || defined(STM32F479xx)
 /**
   * @brief  Returns the FLASH Write Protection Option Bytes value for Bank 2
-  * @note   This function can be used only for STM32F42xxx/STM32F43xxx/STM32F469xx/STM32F479xx Devices.
+  * @note   This function can be used only for STM32F42xxx/STM32F43xxx/STM32F469xx/STM32F479xx devices.  
   * @retval The FLASH Write Protection  Option Bytes value
   */
 uint16_t HAL_FLASHEx_OB_GetBank2WRP(void)
@@ -767,7 +767,7 @@ static HAL_StatusTypeDef FLASH_OB_DisableWRP(uint32_t WRPSector, uint32_t Banks)
 /**
   * @brief  Configure the Dual Bank Boot.
   *   
-  * @note   This function can be used only for STM32F42xxx/43xxx Devices.
+  * @note   This function can be used only for STM32F42xxx/43xxx devices.
   *      
   * @param  BootConfig specifies the Dual Bank Boot Option byte.
   *          This parameter can be one of the following values:
@@ -798,7 +798,7 @@ static HAL_StatusTypeDef FLASH_OB_BootConfig(uint8_t BootConfig)
 /**
   * @brief  Enable the read/write protection (PCROP) of the desired 
   *         sectors of Bank 1 and/or Bank 2.
-  * @note   This function can be used only for STM32F42xxx/43xxx Devices.
+  * @note   This function can be used only for STM32F42xxx/43xxx devices.
   * @param  SectorBank1 Specifies the sector(s) to be read/write protected or unprotected for bank1.
   *          This parameter can be one of the following values:
   *            @arg OB_PCROP: A value between OB_PCROP_SECTOR_0 and OB_PCROP_SECTOR_11
@@ -862,7 +862,7 @@ static HAL_StatusTypeDef FLASH_OB_EnablePCROP(uint32_t SectorBank1, uint32_t Sec
 /**
   * @brief  Disable the read/write protection (PCROP) of the desired 
   *         sectors  of Bank 1 and/or Bank 2.
-  * @note   This function can be used only for STM32F42xxx/43xxx Devices.
+  * @note   This function can be used only for STM32F42xxx/43xxx devices.
   * @param  SectorBank1 specifies the sector(s) to be read/write protected or unprotected for bank1.
   *          This parameter can be one of the following values:
   *            @arg OB_PCROP: A value between OB_PCROP_SECTOR_0 and OB_PCROP_SECTOR_11
@@ -1091,7 +1091,7 @@ static HAL_StatusTypeDef FLASH_OB_DisableWRP(uint32_t WRPSector, uint32_t Banks)
     defined(STM32F412Cx) || defined(STM32F413xx) || defined(STM32F423xx)
 /**
   * @brief  Enable the read/write protection (PCROP) of the desired sectors.
-  * @note   This function can be used only for STM32F401xx Devices.
+  * @note   This function can be used only for STM32F401xx devices.
   * @param  Sector specifies the sector(s) to be read/write protected or unprotected.
   *          This parameter can be one of the following values:
   *            @arg OB_PCROP: A value between OB_PCROP_Sector0 and OB_PCROP_Sector5
@@ -1119,7 +1119,7 @@ static HAL_StatusTypeDef FLASH_OB_EnablePCROP(uint32_t Sector)
 
 /**
   * @brief  Disable the read/write protection (PCROP) of the desired sectors.
-  * @note   This function can be used only for STM32F401xx Devices.
+  * @note   This function can be used only for STM32F401xx devices.
   * @param  Sector specifies the sector(s) to be read/write protected or unprotected.
   *          This parameter can be one of the following values:
   *            @arg OB_PCROP: A value between OB_PCROP_Sector0 and OB_PCROP_Sector5

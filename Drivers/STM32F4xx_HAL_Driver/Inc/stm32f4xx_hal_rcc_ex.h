@@ -57,7 +57,7 @@ typedef struct
 
   uint32_t PLLN;       /*!< PLLN: Multiplication factor for PLL VCO output clock.
                             This parameter must be a number between Min_Data = 50 and Max_Data = 432 
-                            except for STM32F411xE Devices where the Min_Data = 192 */
+                            except for STM32F411xE devices where the Min_Data = 192 */
 
   uint32_t PLLP;       /*!< PLLP: Division factor for main system clock (SYSCLK).
                             This parameter must be a value of @ref RCC_PLLP_Clock_Divider             */
@@ -69,7 +69,7 @@ typedef struct
     defined(STM32F413xx) || defined(STM32F423xx)
   uint32_t PLLR;       /*!< PLLR: PLL division factor for I2S, SAI, SYSTEM, SPDIFRX clocks.
                             This parameter is only available in STM32F410xx/STM32F446xx/STM32F469xx/STM32F479xx
-                            and STM32F412Zx/STM32F412Vx/STM32F412Rx/STM32F412Cx/STM32F413xx/STM32F423xx Devices.
+                            and STM32F412Zx/STM32F412Vx/STM32F412Rx/STM32F412Cx/STM32F413xx/STM32F423xx devices. 
                             This parameter must be a number between Min_Data = 2 and Max_Data = 7     */
 #endif /* STM32F410xx || STM32F446xx || STM32F469xx || STM32F479xx || STM32F412Zx || STM32F412Vx || STM32F412Rx || STM32F412Cx || STM32F413xx || STM32F423xx */ 
 }RCC_PLLInitTypeDef;
@@ -321,7 +321,7 @@ typedef struct
                             This parameter will be used only when PLLSAI is selected as Clock Source SAI or LTDC */ 
 #if defined(STM32F469xx) || defined(STM32F479xx)
   uint32_t PLLSAIP;    /*!< Specifies division factor for OTG FS and SDIO clocks.
-                            This parameter is only available in STM32F469xx/STM32F479xx Devices.
+                            This parameter is only available in STM32F469xx/STM32F479xx devices.
                             This parameter must be a value of @ref RCCEx_PLLSAIP_Clock_Divider  */  
 #endif /* STM32F469xx || STM32F479xx */
                                  
@@ -390,7 +390,7 @@ typedef struct
                                 
   uint32_t PLLI2SN;    /*!< Specifies the multiplication factor for PLLI2S VCO output clock.
                             This parameter must be a number between Min_Data = 50 and Max_Data = 432
-                            Except for STM32F411xE Devices where the Min_Data = 192.
+                            Except for STM32F411xE devices where the Min_Data = 192. 
                             This parameter will be used only when PLLI2S is selected as Clock Source I2S or SAI */
 
   uint32_t PLLI2SR;    /*!< Specifies the division factor for I2S clock.
@@ -5768,7 +5768,7 @@ typedef struct
   * @param  __PLLR__ PLL division factor for I2S, SAI, SYSTEM, SPDIFRX clocks.
   *         This parameter must be a number between Min_Data = 2 and Max_Data = 7.
   * @note   This parameter is only available in STM32F446xx/STM32F469xx/STM32F479xx/
-            STM32F412Zx/STM32F412Vx/STM32F412Rx/STM32F412Cx/STM32F413xx/STM32F423xx Devices.
+            STM32F412Zx/STM32F412Vx/STM32F412Rx/STM32F412Cx/STM32F413xx/STM32F423xx devices.
   *      
   */
 #define __HAL_RCC_PLL_CONFIG(__RCC_PLLSource__, __PLLM__, __PLLN__, __PLLP__, __PLLQ__,__PLLR__)  \
@@ -5792,9 +5792,9 @@ typedef struct
   *         of 2 MHz to limit PLL jitter.
   * @param  __PLLN__ specifies the multiplication factor for PLL VCO output clock
   *         This parameter must be a number between Min_Data = 50 and Max_Data = 432
-  *         Except for STM32F411xE Devices where Min_Data = 192.
+  *         Except for STM32F411xE devices where Min_Data = 192.
   * @note   You have to set the PLLN parameter correctly to ensure that the VCO
-  *         output frequency is between 100 and 432 MHz, Except for STM32F411xE Devices
+  *         output frequency is between 100 and 432 MHz, Except for STM32F411xE devices
   *         where frequency is between 192 and 432 MHz.
   * @param  __PLLP__ specifies the division factor for main system clock (SYSCLK)
   *         This parameter must be a number in the range {2, 4, 6, or 8}.

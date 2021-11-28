@@ -269,7 +269,7 @@ typedef struct
   *            @arg FLASH_FLAG_PGSERR: FLASH Programming Sequence error flag
   *            @arg FLASH_FLAG_RDERR : FLASH Read Protection error flag (PCROP) (*)
   *            @arg FLASH_FLAG_BSY   : FLASH Busy flag
-  *           (*) FLASH_FLAG_RDERR is not available for STM32F405xx/407xx/415xx/417xx Devices
+  *           (*) FLASH_FLAG_RDERR is not available for STM32F405xx/407xx/415xx/417xx devices                             
   * @retval The new state of __FLAG__ (SET or RESET).
   */
 #define __HAL_FLASH_GET_FLAG(__FLAG__)   ((FLASH->SR & (__FLAG__)))
@@ -285,7 +285,7 @@ typedef struct
   *            @arg FLASH_FLAG_PGPERR: FLASH Programming Parallelism error flag
   *            @arg FLASH_FLAG_PGSERR: FLASH Programming Sequence error flag
   *            @arg FLASH_FLAG_RDERR : FLASH Read Protection error flag (PCROP) (*)
-  *           (*) FLASH_FLAG_RDERR is not available for STM32F405xx/407xx/415xx/417xx Devices
+  *           (*) FLASH_FLAG_RDERR is not available for STM32F405xx/407xx/415xx/417xx devices   
   * @retval none
   */
 #define __HAL_FLASH_CLEAR_FLAG(__FLAG__)   (FLASH->SR = (__FLAG__))

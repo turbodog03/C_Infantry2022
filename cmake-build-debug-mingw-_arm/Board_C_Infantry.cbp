@@ -152,13 +152,13 @@
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_delay.c">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
-		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_delay.h">
-			<Option target="Board_C_Infantry.elf"/>
-		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_dwt.c">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_flash.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_imu.c">
 			<Option target="Board_C_Infantry.elf"/>
 		</Unit>
 		<Unit filename="D:/turboDog/Documents/projects/C_Infantry2022/Board_C_Infantry/BSP/Src/bsp_spi.c">

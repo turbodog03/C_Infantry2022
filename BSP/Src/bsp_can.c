@@ -5,6 +5,18 @@
 #include <can.h>
 #include <Detect.h>
 #include "bsp_can.h"
+#include "Transmission.h"
+#define CAN_DOWN_TX_INFO 0x133
+chassis_mode_e chassis_mode;
+/* 云台电机 */
+Motor_t PitMotor;
+Motor_t YawMotor;
+/* 拨弹电机 */
+moto_measure_t moto_trigger;
+/* 底盘电机 */
+Motor_t ChassisMotor[4];
+/* 3508摩擦轮电机 */
+moto_measure_t moto_shoot[2];//0左，1右；
 
 void CAN_Device_Init(void){
     CAN_FilterTypeDef can_filter_st;
@@ -46,38 +58,102 @@ void CAN_Device_Init(void){
     {
     }
 }
-void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan){
-//    CAN_RxHeaderTypeDef rx_header;
-//    uint8_t rx_data[8];
-//    static uint8_t RC_Data_Buf[16];
-//    HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rx_header, rx_data);
-//    if(hcan==&hcan2){
-//        switch (rx_header.StdId){
-//            case CAN_RC_DATA_Frame_0:
-//                RC_Data_Buf[0] = rx_data[0];
-//                RC_Data_Buf[1] = rx_data[1];
-//                RC_Data_Buf[2] = rx_data[2];
-//                RC_Data_Buf[3] = rx_data[3];
-//                RC_Data_Buf[4] = rx_data[4];
-//                RC_Data_Buf[5] = rx_data[5];
-//                RC_Data_Buf[6] = rx_data[6];
-//                RC_Data_Buf[7] = rx_data[7];
-//                break;
-//            case CAN_RC_DATA_Frame_1:
-//                RC_Data_Buf[8] = rx_data[0];
-//                RC_Data_Buf[9] = rx_data[1];
-//                RC_Data_Buf[10] = rx_data[2];
-//                RC_Data_Buf[11] = rx_data[3];
-//                RC_Data_Buf[12] = rx_data[4];
-//                RC_Data_Buf[13] = rx_data[5];
-//                RC_Data_Buf[14] = rx_data[6];
-//                RC_Data_Buf[15] = rx_data[7];
+void send_chassis_moto_zero_current(void)
+{
+//    static uint8_t data[8];
 //
-//                break;
-//        }
-//    }
-//    if(hcan==&hcan1){
-//    switch (rx_header.StdId){
+//    data[0] = 0;
+//    data[1] = 0;
+//    data[2] = 0;
+//    data[3] = 0;
+//    data[4] = 0;
+//    data[5] = 0;
+//    data[6] = 0;
+//    data[7] = 0;
+//
+//    write_can(hcan1, CAN_CHASSIS_ID, data);
+stop_chassis = 1;
+}
+
+void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan){
+    CAN_RxHeaderTypeDef rx_header;
+    uint8_t rx_data[8];
+    HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rx_header, rx_data);
+    if(hcan==&hcan2){
+        switch (rx_header.StdId){
+            case CAN_DOWN_TX_INFO :
+                chassis_mode = rx_data[0];
+                break;
+            default:
+                break;
+        }
+    }
+    if(hcan==&hcan1) {
+        switch (rx_header.StdId) {
+
+            case CAN_YAW_MOTOR_ID: {
+                if (YawMotor.msg_cnt++ <= 50)
+                    get_motor_offset(&YawMotor, rx_data);
+                else
+                    get_moto_info(&YawMotor, rx_data);
+                err_detector_hook(GIMBAL_YAW_OFFLINE);
+            }
+                break;
+            case CAN_PIT_MOTOR_ID: {
+                if (PitMotor.msg_cnt++ <= 50)
+                    get_motor_offset(&PitMotor, rx_data);
+                else
+                    get_moto_info(&PitMotor, rx_data);
+                err_detector_hook(GIMBAL_PIT_OFFLINE);
+            }
+            case CAN_3508_M1_ID:
+            {
+                moto_shoot[0].msg_cnt++ <= 50 ? get_moto_offset(&moto_shoot[0], rx_data) : \
+                encoder_data_handle(&moto_shoot[0], rx_data);
+                //通过转速变化判断是否有子弹射出,同时计算射出数量
+//			last_state = shoot_status;
+//			if(-moto_shoot[0].speed_rpm < SHOT_SUCCESS_FRIC_WHEEL_SPEED && -moto_shoot[0].speed_rpm > SHOT_ABLE_FRIC_WHEEL_SPEED){
+//				shoot_status = 1;
+//				GPIOE->BSRR=0x40;			//PE6置位
+//			}
+//			else{
+//				shoot_status = 0;
+//				GPIOE->BSRR=0x400000;	//PE6复位
+//			}
+//			if(last_state == 0 && shoot_status == 1){
+//				shoot_cnt++;
+//			}
+
+                err_detector_hook(AMMO_BOOSTER1_OFFLINE);
+            }
+                break;
+            case CAN_3508_M2_ID:
+            {
+                //PE4置位
+                //GPIOE->BSRR=0x10;
+                moto_shoot[1].msg_cnt++ <= 50 ? get_moto_offset(&moto_shoot[1], rx_data) : \
+      encoder_data_handle(&moto_shoot[1], rx_data);
+                err_detector_hook(AMMO_BOOSTER2_OFFLINE);
+                //PE4复位
+                //GPIOE->BSRR=0x100000;
+            }
+                break;
+                //拨弹电机
+            case CAN_3508_M3_ID:
+            {
+                moto_trigger.msg_cnt++;
+                moto_trigger.msg_cnt <= 10 ? get_moto_offset(&moto_trigger, rx_data) : encoder_data_handle(&moto_trigger, rx_data);
+                err_detector_hook(TRIGGER_MOTO_OFFLINE);
+            }
+                break;
+            default:
+            {
+            }
+                break;
+        }
+
+        }
+    }
 //        case CAN_3508_M1_ID:
 //        {
 //            ChassisMotor[0].msg_cnt++ <= 50 ? get_motor_offset(&ChassisMotor[0], rx_data) : \
@@ -116,7 +192,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan){
 //        break;
 //        }
 //    }
-}
+
 void write_can(CAN_HandleTypeDef can, uint32_t send_id, uint8_t send_data[]){
     uint32_t send_mail_box;
     tx_message.StdId = send_id;

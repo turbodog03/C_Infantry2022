@@ -57,7 +57,7 @@ typedef struct
 {
   uint32_t InjectedChannel;                      /*!< Selection of ADC channel to configure
                                                       This parameter can be a value of @ref ADC_channels
-                                                      Note: Depending on Devices, some channels may not be available on package pins. Refer to device datasheet for channels availability. */
+                                                      Note: Depending on devices, some channels may not be available on package pins. Refer to device datasheet for channels availability. */
   uint32_t InjectedRank;                         /*!< Rank in the injected group sequencer
                                                       This parameter must be a value of @ref ADCEx_injected_rank
                                                       Note: In case of need to disable a channel or change order of conversion sequencer, rank containing a previous channel setting can be overwritten by the new channel setting (or parameter number of conversions can be adjusted) */
@@ -241,7 +241,7 @@ typedef struct
 /**
   * @brief Disable internal path of ADC channel Vbat
   * @note  Use case of this macro:
-  *        On Devices STM32F42x and STM32F43x, ADC internal channels
+  *        On devices STM32F42x and STM32F43x, ADC internal channels
   *        Vbat and VrefInt share the same internal path, only
   *        one of them can be enabled.This macro is to be used when ADC 
   *        channels Vbat and VrefInt are selected, and must be called 

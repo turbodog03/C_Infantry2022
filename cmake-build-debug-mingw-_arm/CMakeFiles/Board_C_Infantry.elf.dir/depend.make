@@ -206,8 +206,10 @@ CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.obj: \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
  ../UserLib/MahonyAHRS.h \
+ ../UserLib/calibrate.h \
  ../UserLib/pid.h \
  ../UserLib/user_lib.h \
+ ../APP/Detect.h \
  ../APP/Ins.c \
  ../APP/Ins.h
 CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.obj: \
@@ -370,8 +372,11 @@ CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj: \
  ../APP/Transmission.h
 CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj: \
  ../APP/Detect.h \
+ ../APP/Gimbal.h \
+ ../APP/Transmission.h \
  ../BSP/Inc/bsp_can.h \
  ../BSP/Inc/bsp_dwt.h \
+ ../BSP/Inc/bsp_imu.h \
  ../Custom/sys.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
@@ -419,6 +424,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Inc/FreeRTOSConfig.h \
  ../Inc/can.h \
+ ../Inc/gpio.h \
  ../Inc/main.h \
  ../Inc/stm32f4xx_hal_conf.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
@@ -437,6 +443,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj: \
  ../UserLib/arm_math.h \
  ../UserLib/controller.h \
  ../UserLib/filter32.h \
+ ../UserLib/keyboard.h \
  ../UserLib/motor.h \
  ../UserLib/user_lib.h \
  ../BSP/Src/bsp_can.c
@@ -575,6 +582,68 @@ CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.obj: \
  ../Inc/main.h \
  ../Inc/stm32f4xx_hal_conf.h \
  ../BSP/Src/bsp_flash.c
+CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_imu.c.obj: \
+ ../APP/Ins.h \
+ ../BSP/Inc/bsp_imu.h \
+ ../Custom/sys.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+ ../Drivers/CMSIS/Include/cmsis_armcc.h \
+ ../Drivers/CMSIS/Include/cmsis_armclang.h \
+ ../Drivers/CMSIS/Include/cmsis_compiler.h \
+ ../Drivers/CMSIS/Include/cmsis_gcc.h \
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h \
+ ../Drivers/CMSIS/Include/cmsis_version.h \
+ ../Drivers/CMSIS/Include/core_cm4.h \
+ ../Drivers/CMSIS/Include/mpu_armv7.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+ ../Inc/FreeRTOSConfig.h \
+ ../Inc/main.h \
+ ../Inc/stm32f4xx_hal_conf.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ ../UserLib/user_lib.h \
+ ../BSP/Src/bsp_imu.c
 CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.obj: \
  ../BSP/Inc/bsp_spi.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
@@ -747,6 +816,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj: \
  ../UserLib/user_lib.h \
  ../BSP/Src/bsp_uart.c
 CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.obj: \
+ ../BSP/Inc/bsp_delay.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
@@ -3022,9 +3092,12 @@ CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.obj: \
  ../UserLib/MahonyAHRS.c \
  ../UserLib/MahonyAHRS.h
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj: \
+ ../APP/Gimbal.h \
+ ../APP/Transmission.h \
  ../BSP/Inc/bsp_can.h \
  ../BSP/Inc/bsp_dwt.h \
  ../BSP/Inc/bsp_flash.h \
+ ../BSP/Inc/bsp_imu.h \
  ../Custom/sys.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
@@ -3072,6 +3145,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Inc/FreeRTOSConfig.h \
  ../Inc/can.h \
+ ../Inc/gpio.h \
  ../Inc/main.h \
  ../Inc/stm32f4xx_hal_conf.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
@@ -3090,6 +3164,7 @@ CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj: \
  ../UserLib/arm_math.h \
  ../UserLib/controller.h \
  ../UserLib/filter32.h \
+ ../UserLib/keyboard.h \
  ../UserLib/motor.h \
  ../UserLib/user_lib.h \
  ../UserLib/calibrate.c \
@@ -3222,6 +3297,10 @@ CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.obj: \
  ../UserLib/filter32.c \
  ../UserLib/filter32.h
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.obj: \
+ ../APP/Gimbal.h \
+ ../APP/Transmission.h \
+ ../BSP/Inc/bsp_imu.h \
+ ../BSP/Inc/bsp_uart.h \
  ../Custom/sys.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
@@ -3263,7 +3342,24 @@ CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.obj: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+ ../Inc/FreeRTOSConfig.h \
+ ../Inc/gpio.h \
+ ../Inc/main.h \
  ../Inc/stm32f4xx_hal_conf.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ ../UserLib/user_lib.h \
  ../UserLib/keyboard.c \
  ../UserLib/keyboard.h
 CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.obj: \

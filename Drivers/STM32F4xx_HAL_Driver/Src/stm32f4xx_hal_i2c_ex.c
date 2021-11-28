@@ -12,8 +12,8 @@
                ##### I2C peripheral extension features  #####
   ==============================================================================
 
-  [..] Comparing to other previous Devices, the I2C interface for STM32F427xx/437xx/
-       429xx/439xx Devices contains the following additional features :
+  [..] Comparing to other previous devices, the I2C interface for STM32F427xx/437xx/
+       429xx/439xx devices contains the following additional features :
 
        (+) Possibility to disable or enable Analog Noise Filter
        (+) Use of a configured Digital Noise Filter

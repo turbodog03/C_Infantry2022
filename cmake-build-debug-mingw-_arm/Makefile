@@ -344,6 +344,30 @@ BSP/Src/bsp_flash.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.s
 .PHONY : BSP/Src/bsp_flash.c.s
 
+BSP/Src/bsp_imu.obj: BSP/Src/bsp_imu.c.obj
+.PHONY : BSP/Src/bsp_imu.obj
+
+# target to build an object file
+BSP/Src/bsp_imu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_imu.c.obj
+.PHONY : BSP/Src/bsp_imu.c.obj
+
+BSP/Src/bsp_imu.i: BSP/Src/bsp_imu.c.i
+.PHONY : BSP/Src/bsp_imu.i
+
+# target to preprocess a source file
+BSP/Src/bsp_imu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_imu.c.i
+.PHONY : BSP/Src/bsp_imu.c.i
+
+BSP/Src/bsp_imu.s: BSP/Src/bsp_imu.c.s
+.PHONY : BSP/Src/bsp_imu.s
+
+# target to generate assembly for a file
+BSP/Src/bsp_imu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_imu.c.s
+.PHONY : BSP/Src/bsp_imu.c.s
+
 BSP/Src/bsp_spi.obj: BSP/Src/bsp_spi.c.obj
 .PHONY : BSP/Src/bsp_spi.obj
 
@@ -2044,6 +2068,9 @@ help:
 	@echo ... BSP/Src/bsp_flash.obj
 	@echo ... BSP/Src/bsp_flash.i
 	@echo ... BSP/Src/bsp_flash.s
+	@echo ... BSP/Src/bsp_imu.obj
+	@echo ... BSP/Src/bsp_imu.i
+	@echo ... BSP/Src/bsp_imu.s
 	@echo ... BSP/Src/bsp_spi.obj
 	@echo ... BSP/Src/bsp_spi.i
 	@echo ... BSP/Src/bsp_spi.s

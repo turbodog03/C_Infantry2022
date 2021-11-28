@@ -88,7 +88,7 @@
 
 /**
   * @brief Stop the flash interface while System Run
-  * @note  This mode is only available for STM32F41xxx/STM32F446xx Devices.
+  * @note  This mode is only available for STM32F41xxx/STM32F446xx devices. 
   * @note  This mode couldn't be set while executing with the flash itself. 
   *        It should be done with specific routine executed from RAM.     
   * @retval HAL status
@@ -105,7 +105,7 @@ __RAM_FUNC HAL_StatusTypeDef HAL_FLASHEx_StopFlashInterfaceClk(void)
 
 /**
   * @brief Start the flash interface while System Run
-  * @note  This mode is only available for STM32F411xx/STM32F446xx Devices.
+  * @note  This mode is only available for STM32F411xx/STM32F446xx devices. 
   * @note  This mode couldn't be set while executing with the flash itself. 
   *        It should be done with specific routine executed from RAM.     
   * @retval HAL status
@@ -122,7 +122,7 @@ __RAM_FUNC HAL_StatusTypeDef HAL_FLASHEx_StartFlashInterfaceClk(void)
 
 /**
   * @brief Enable the flash sleep while System Run
-  * @note  This mode is only available for STM32F41xxx/STM32F446xx Devices.
+  * @note  This mode is only available for STM32F41xxx/STM32F446xx devices. 
   * @note  This mode could n't be set while executing with the flash itself. 
   *        It should be done with specific routine executed from RAM.     
   * @retval HAL status
@@ -139,7 +139,7 @@ __RAM_FUNC HAL_StatusTypeDef HAL_FLASHEx_EnableFlashSleepMode(void)
 
 /**
   * @brief Disable the flash sleep while System Run
-  * @note  This mode is only available for STM32F41xxx/STM32F446xx Devices.
+  * @note  This mode is only available for STM32F41xxx/STM32F446xx devices. 
   * @note  This mode couldn't be set while executing with the flash itself. 
   *        It should be done with specific routine executed from RAM.     
   * @retval HAL status

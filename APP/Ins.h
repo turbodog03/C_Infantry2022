@@ -29,6 +29,8 @@
 
 #include "stdint.h"
 #include "user_lib.h"
+//ÆÚÍûÎÂ¶È
+#define SET_TEMP 45.0f
 
 #define SPI_DMA_GYRO_LENGHT       8
 #define SPI_DMA_ACCEL_LENGHT      9

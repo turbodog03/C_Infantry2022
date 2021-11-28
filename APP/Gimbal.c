@@ -29,7 +29,8 @@
 /* gimbal global information */
 gimbal_yaw_t gim;
 imu_t        imu;
-
+bool_t enable_chassis;
+bool_t stop_chassis;
 char color_flag=0;//0为红色，1为蓝色
 static _Bool auto_pid_flag = 1;
 static _Bool manual_pid_flag = 0;
@@ -64,7 +65,8 @@ void gimbal_task(const void* argu)
 {
     //云台电机参数初始化
     gimbal_init_param();
-
+    enable_chassis = 0;
+    stop_chassis = 0;//未校准时发命令让下板给底盘发0电流
     //从flash中读取云台中点位置
     read_gimbal_offset(&pit_center_offset, &yaw_center_offset);
     //初始化自瞄发送帧
@@ -209,11 +211,10 @@ static action_mode_e remote_is_action(void)
 
 /* gimbal relative position param */
 float     pit_relative_angle;
-float     yaw_relative_angle;  //unit: degree
+volatile float  yaw_relative_angle;  //unit: degree
 void get_gimbal_information(void)
 {
     //获取 imu 数据
-    //TODO
     get_imu_data(&imu);
 
     //云台相对角度获取
@@ -239,7 +240,9 @@ void read_gimbal_offset(int32_t *pit_offset, int32_t *yaw_offset)
         *yaw_offset = glb_cali_data.gimbal_cali_data.yaw_offset;
 
         //一起正常，唤醒底盘任务
-        osThreadResume(task1_t);
+        //osThreadResume(task1_t);
+        //改为发送信号让下板唤醒底盘
+        enable_chassis = 1;
     }
     else
     {
@@ -306,8 +309,8 @@ void get_gimbal_mode(void)
                 }
 
             }
-            //TODO：chassis.mode，是上板根据遥控解算出来还是下板传上来？chassis的模式是只看遥控器数据还是要结合云台状态一起看？
-            if (chassis.mode == CHASSIS_SPIN)
+            //TODO：to be tested
+            if (down_info[0] == CHASSIS_SPIN)
             {
                 if (gim.ctrl_mode == GIMBAL_NO_ACTION)
                 {
@@ -361,7 +364,7 @@ void gimbal_loop_handle(void)
     yaw_angle_fdb = imu.angle_z - gim.yaw_offset_angle;
 
     //chassis_angle_tmp = yaw_angle_fdb - yaw_relative_angle;
-    if (chassis.mode != CHASSIS_FIXED_ROUTE)
+    if (down_info[0] != CHASSIS_FIXED_ROUTE)
     {
         gimbal_yaw_control();
         gimbal_pitch_control();

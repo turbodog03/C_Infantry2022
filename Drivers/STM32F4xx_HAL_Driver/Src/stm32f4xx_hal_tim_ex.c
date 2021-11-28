@@ -1758,8 +1758,8 @@ HAL_StatusTypeDef HAL_TIMEx_ConfigBreakDeadTime(TIM_HandleTypeDef *htim,
   *           @arg TIM_TIM11_HSE:      TIM11 TI1 is connected to HSE_RTC clock
   *           @arg TIM_TIM11_SPDIFRX:  TIM11 TI1 is connected to SPDIFRX_FRAME_SYNC  (*)
   *
-  *         (*)  Value not defined in all Devices. \n
-  *         (**) Register not available in all Devices.
+  *         (*)  Value not defined in all devices. \n
+  *         (**) Register not available in all devices.
   *
   * @retval HAL status
   */

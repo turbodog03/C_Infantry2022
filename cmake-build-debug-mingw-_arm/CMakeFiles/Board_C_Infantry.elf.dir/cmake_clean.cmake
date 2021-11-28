@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.obj"
   "CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_dwt.c.obj"
   "CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.obj"
+  "CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_imu.c.obj"
   "CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.obj"
   "CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_tim.c.obj"
   "CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj"

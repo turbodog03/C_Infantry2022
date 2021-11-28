@@ -34,8 +34,8 @@
 
 
 #include "keyboard.h"
-#include "uart_device.h"
-#include "gimbal_task.h"
+#include "bsp_uart.h"
+#include "Gimbal.h"
 #include "sys.h"
 
 /* mouse button long press time */

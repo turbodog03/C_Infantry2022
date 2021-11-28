@@ -21,6 +21,10 @@ typedef enum
     AMMO_BOOSTER2_OFFLINE,
     TRIGGER_MOTO_OFFLINE,
     ERROR_LIST_LENGTH,
+    //imu
+    BOARD_ACCEL_TOE,
+    BOARD_GYRO_TOE,
+    BOARD_MAG_TOE
 } err_id_e;
 typedef struct
 {

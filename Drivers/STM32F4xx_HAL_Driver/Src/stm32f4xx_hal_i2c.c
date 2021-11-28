@@ -3303,7 +3303,7 @@ HAL_StatusTypeDef HAL_I2C_Mem_Read_DMA(I2C_HandleTypeDef *hi2c, uint16_t DevAddr
 
 /**
   * @brief  Checks if target device is ready for communication.
-  * @note   This function is used with Memory Devices
+  * @note   This function is used with Memory devices
   * @param  hi2c Pointer to a I2C_HandleTypeDef structure that contains
   *                the configuration information for the specified I2C.
   * @param  DevAddress Target device address: The device 7 bits address value

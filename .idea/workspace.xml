@@ -12,32 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="725fd37b-0e84-49e7-99d7-87f96a2ae7e6" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/APP/Ins.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APP/Ins.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APP/Shoot.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APP/Shoot.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/Inc/bsp_delay.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/Inc/bsp_imu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/Inc/bsp_spi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/Src/bsp_delay.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/Src/bsp_imu.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/Src/bsp_spi.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserLib/MahonyAHRS.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserLib/MahonyAHRS.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserLib/ramp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserLib/ramp.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Detect.h" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Detect.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP/Gimbal.c" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Gimbal.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP/Gimbal.h" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Gimbal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Ins.c" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Ins.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Ins.h" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Ins.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/Transmission.c" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Transmission.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APP/Transmission.h" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Transmission.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BSP/Inc/bsp_can.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Inc/bsp_can.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Inc/bsp_uart.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Inc/bsp_uart.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BSP/Src/bsp_can.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Src/bsp_can.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Src/bsp_uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Src/bsp_uart.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Board_C_Infantry.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Board_C_Infantry.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Custom/sys.h" beforeDir="false" afterPath="$PROJECT_DIR$/Custom/sys.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h" afterDir="false" />
@@ -56,12 +41,9 @@
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" afterDir="false" />
@@ -70,8 +52,6 @@
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" afterDir="false" />
@@ -79,94 +59,39 @@
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/stm32f4xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/usb_otg.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c" beforeDir="false" afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/freertos.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/freertos.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/usb_otg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserLib/arm_math.h" beforeDir="false" afterPath="$PROJECT_DIR$/UserLib/arm_math.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserLib/calibrate.c" beforeDir="false" afterPath="$PROJECT_DIR$/UserLib/calibrate.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserLib/user_lib.h" beforeDir="false" afterPath="$PROJECT_DIR$/UserLib/user_lib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserLib/keyboard.c" beforeDir="false" afterPath="$PROJECT_DIR$/UserLib/keyboard.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Detect.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Detect.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/adc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/can.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/crc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/dma.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/freertos.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/gpio.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/i2c.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/main.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/rng.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/rtc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/spi.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/stm32f4xx_it.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/syscalls.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/system_stm32f4xx.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/tim.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/usart.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/usb_otg.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/controller.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/filter32.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/pid.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/user_lib.c.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/startup/startup_stm32f407xx.s.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Progress/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Progress/64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Progress/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Progress/30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Progress/31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Progress/32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Progress/33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Progress/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Makefile" afterDir="false" />
     </list>
@@ -220,7 +145,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.1985494" />
   </component>
   <component name="RecentsManager">
@@ -231,11 +156,6 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD Board_C_Infantry">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Board_C_Infantry.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Board_C_Infantry" TARGET_NAME="Board_C_Infantry.elf" CONFIG_NAME="Debug-MinGW _ARM" RUN_TARGET_PROJECT_NAME="Board_C_Infantry" RUN_TARGET_NAME="Board_C_Infantry.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -244,6 +164,11 @@
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="OCD Board_C_Infantry" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Board_C_Infantry" TARGET_NAME="Board_C_Infantry.elf" CONFIG_NAME="Debug-MinGW _ARM" version="1" RUN_TARGET_PROJECT_NAME="Board_C_Infantry" RUN_TARGET_NAME="Board_C_Infantry.elf">
@@ -283,7 +208,8 @@
       <workItem from="1637992526105" duration="229000" />
       <workItem from="1637992768521" duration="21000" />
       <workItem from="1638001067914" duration="800000" />
-      <workItem from="1638002029966" duration="11302000" />
+      <workItem from="1638002029966" duration="18752000" />
+      <workItem from="1638085944929" duration="8024000" />
     </task>
     <servers />
   </component>

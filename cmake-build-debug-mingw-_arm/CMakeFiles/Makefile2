@@ -80,12 +80,12 @@ clean: CMakeFiles/Board_C_Infantry.elf.dir/clean
 CMakeFiles/Board_C_Infantry.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Board_C_Infantry.elf.dir\build.make CMakeFiles/Board_C_Infantry.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80 "Built target Board_C_Infantry.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81 "Built target Board_C_Infantry.elf"
 .PHONY : CMakeFiles/Board_C_Infantry.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Board_C_Infantry.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles 80
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles 81
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Board_C_Infantry.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\cmake-build-debug-mingw-_arm\CMakeFiles 0
 .PHONY : CMakeFiles/Board_C_Infantry.elf.dir/rule

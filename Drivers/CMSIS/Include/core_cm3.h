@@ -190,7 +190,7 @@
  ******************************************************************************/
 /**
   \defgroup CMSIS_core_register Defines and Type Definitions
-  \brief Type definitions and defines for Cortex-M processor based Devices.
+  \brief Type definitions and defines for Cortex-M processor based devices.
 */
 
 /**

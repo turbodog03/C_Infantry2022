@@ -162,12 +162,12 @@
              the peripherals mapped on these busses. You can use
              "HAL_RCC_GetSysClockFreq()" function to retrieve the frequencies of these clocks.
 
-         (#) For the STM32F405xx/07xx and STM32F415xx/17xx Devices, the maximum
+         (#) For the STM32F405xx/07xx and STM32F415xx/17xx devices, the maximum
              frequency of the SYSCLK and HCLK is 168 MHz, PCLK2 84 MHz and PCLK1 42 MHz.
              Depending on the device voltage range, the maximum frequency should
              be adapted accordingly (refer to the product datasheets for more details).
 
-         (#) For the STM32F42xxx, STM32F43xxx, STM32F446xx, STM32F469xx and STM32F479xx Devices,
+         (#) For the STM32F42xxx, STM32F43xxx, STM32F446xx, STM32F469xx and STM32F479xx devices,
              the maximum frequency of the SYSCLK and HCLK is 180 MHz, PCLK2 90 MHz and PCLK1 45 MHz.
              Depending on the device voltage range, the maximum frequency should
              be adapted accordingly (refer to the product datasheets for more details).
@@ -748,8 +748,8 @@ HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, ui
   *            @arg RCC_MCO1SOURCE_HSE: HSE clock selected as MCO1 source
   *            @arg RCC_MCO1SOURCE_PLLCLK: main PLL clock selected as MCO1 source
   *            @arg RCC_MCO2SOURCE_SYSCLK: System clock (SYSCLK) selected as MCO2 source
-  *            @arg RCC_MCO2SOURCE_PLLI2SCLK: PLLI2S clock selected as MCO2 source, available for all STM32F4 Devices except STM32F410xx
-  *            @arg RCC_MCO2SOURCE_I2SCLK: I2SCLK clock selected as MCO2 source, available only for STM32F410Rx Devices
+  *            @arg RCC_MCO2SOURCE_PLLI2SCLK: PLLI2S clock selected as MCO2 source, available for all STM32F4 devices except STM32F410xx
+  *            @arg RCC_MCO2SOURCE_I2SCLK: I2SCLK clock selected as MCO2 source, available only for STM32F410Rx devices
   *            @arg RCC_MCO2SOURCE_HSE: HSE clock selected as MCO2 source
   *            @arg RCC_MCO2SOURCE_PLLCLK: main PLL clock selected as MCO2 source
   * @param  RCC_MCODiv specifies the MCOx prescaler.
@@ -759,7 +759,7 @@ HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, ui
   *            @arg RCC_MCODIV_3: division by 3 applied to MCOx clock
   *            @arg RCC_MCODIV_4: division by 4 applied to MCOx clock
   *            @arg RCC_MCODIV_5: division by 5 applied to MCOx clock
-  * @note  For STM32F410Rx Devices to output I2SCLK clock on MCO2 you should have
+  * @note  For STM32F410Rx devices to output I2SCLK clock on MCO2 you should have
   *        at last one of the SPI clocks enabled (SPI1, SPI2 or SPI5).
   * @retval None
   */
@@ -788,7 +788,7 @@ void HAL_RCC_MCOConfig(uint32_t RCC_MCOx, uint32_t RCC_MCOSource, uint32_t RCC_M
     /* Mask MCO1 and MCO1PRE[2:0] bits then Select MCO1 clock source and prescaler */
     MODIFY_REG(RCC->CFGR, (RCC_CFGR_MCO1 | RCC_CFGR_MCO1PRE), (RCC_MCOSource | RCC_MCODiv));
 
-   /* This RCC MCO1 enable feature is available only on STM32F410xx Devices */
+   /* This RCC MCO1 enable feature is available only on STM32F410xx devices */
 #if defined(RCC_CFGR_MCO1EN)
     __HAL_RCC_MCO1_ENABLE();
 #endif /* RCC_CFGR_MCO1EN */
@@ -812,7 +812,7 @@ void HAL_RCC_MCOConfig(uint32_t RCC_MCOx, uint32_t RCC_MCOSource, uint32_t RCC_M
     /* Mask MCO2 and MCO2PRE[2:0] bits then Select MCO2 clock source and prescaler */
     MODIFY_REG(RCC->CFGR, (RCC_CFGR_MCO2 | RCC_CFGR_MCO2PRE), (RCC_MCOSource | (RCC_MCODiv << 3U)));
 
-   /* This RCC MCO2 enable feature is available only on STM32F410Rx Devices */
+   /* This RCC MCO2 enable feature is available only on STM32F410Rx devices */
 #if defined(RCC_CFGR_MCO2EN)
     __HAL_RCC_MCO2_ENABLE();
 #endif /* RCC_CFGR_MCO2EN */

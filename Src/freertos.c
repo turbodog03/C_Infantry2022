@@ -231,7 +231,7 @@ __weak void detect_task(void const * argument)
 * @retval None
 */
 /* USER CODE END Header_ins_task */
-void ins_task(void const * argument)
+__weak void ins_task(void const * argument)
 {
   /* USER CODE BEGIN ins_task */
   /* Infinite loop */

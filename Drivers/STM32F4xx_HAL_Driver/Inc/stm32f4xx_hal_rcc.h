@@ -197,7 +197,7 @@ typedef struct
 
 /** @defgroup RCC_System_Clock_Source System Clock Source
   * @note     The RCC_SYSCLKSOURCE_PLLRCLK parameter is available only for
-  *           STM32F446xx Devices.
+  *           STM32F446xx devices.
   * @{
   */
 #define RCC_SYSCLKSOURCE_HSI             RCC_CFGR_SW_HSI
@@ -210,7 +210,7 @@ typedef struct
 
 /** @defgroup RCC_System_Clock_Source_Status System Clock Source Status
   * @note     The RCC_SYSCLKSOURCE_STATUS_PLLRCLK parameter is available only for
-  *           STM32F446xx Devices.
+  *           STM32F446xx devices.
   * @{
   */
 #define RCC_SYSCLKSOURCE_STATUS_HSI     RCC_CFGR_SWS_HSI   /*!< HSI used as system clock */
@@ -1072,7 +1072,7 @@ typedef struct
   *              - RCC_SYSCLKSOURCE_HSE: HSE oscillator is used as system clock source.
   *              - RCC_SYSCLKSOURCE_PLLCLK: PLL output is used as system clock source.
   *              - RCC_SYSCLKSOURCE_PLLRCLK: PLLR output is used as system clock source. This
-  *                parameter is available only for STM32F446xx Devices.
+  *                parameter is available only for STM32F446xx devices.
   */
 #define __HAL_RCC_SYSCLK_CONFIG(__RCC_SYSCLKSOURCE__) MODIFY_REG(RCC->CFGR, RCC_CFGR_SW, (__RCC_SYSCLKSOURCE__))
 
@@ -1083,7 +1083,7 @@ typedef struct
   *              - RCC_SYSCLKSOURCE_STATUS_HSE: HSE used as system clock.
   *              - RCC_SYSCLKSOURCE_STATUS_PLLCLK: PLL used as system clock.
   *              - RCC_SYSCLKSOURCE_STATUS_PLLRCLK: PLLR used as system clock. This parameter
-  *                is available only for STM32F446xx Devices.
+  *                is available only for STM32F446xx devices.
   */
 #define __HAL_RCC_GET_SYSCLK_SOURCE() (RCC->CFGR & RCC_CFGR_SWS)
 
@@ -1124,8 +1124,8 @@ typedef struct
   * @param  __MCOCLKSOURCE__ specifies the MCO clock source.
   *          This parameter can be one of the following values:
   *            @arg RCC_MCO2SOURCE_SYSCLK: System clock (SYSCLK) selected as MCO2 source
-  *            @arg RCC_MCO2SOURCE_PLLI2SCLK: PLLI2S clock selected as MCO2 source, available for all STM32F4 Devices except STM32F410xx
-  *            @arg RCC_MCO2SOURCE_I2SCLK: I2SCLK clock selected as MCO2 source, available only for STM32F410Rx Devices
+  *            @arg RCC_MCO2SOURCE_PLLI2SCLK: PLLI2S clock selected as MCO2 source, available for all STM32F4 devices except STM32F410xx
+  *            @arg RCC_MCO2SOURCE_I2SCLK: I2SCLK clock selected as MCO2 source, available only for STM32F410Rx devices
   *            @arg RCC_MCO2SOURCE_HSE: HSE clock selected as MCO2 source
   *            @arg RCC_MCO2SOURCE_PLLCLK: main PLL clock selected as MCO2 source
   * @param  __MCODIV__ specifies the MCO clock prescaler.
@@ -1135,7 +1135,7 @@ typedef struct
   *            @arg RCC_MCODIV_3: division by 3 applied to MCOx clock
   *            @arg RCC_MCODIV_4: division by 4 applied to MCOx clock
   *            @arg RCC_MCODIV_5: division by 5 applied to MCOx clock
-  * @note  For STM32F410Rx Devices, to output I2SCLK clock on MCO2, you should have
+  * @note  For STM32F410Rx devices, to output I2SCLK clock on MCO2, you should have
   *        at least one of the SPI clocks enabled (SPI1, SPI2 or SPI5).
   */
 #define __HAL_RCC_MCO2_CONFIG(__MCOCLKSOURCE__, __MCODIV__) \

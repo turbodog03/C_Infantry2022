@@ -5,8 +5,10 @@
 #ifndef BOARD_C_INFANTRY_GIMBAL_H
 #define BOARD_C_INFANTRY_GIMBAL_H
 
+#include <user_lib.h>
 #include "stm32f4xx_hal.h"
 #include "bsp_imu.h"
+
 /* 云台控制周期 (ms) */
 #define GIMBAL_PERIOD 5
 /* 云台回中初始化时间 (ms) */
@@ -169,7 +171,7 @@ extern float pit_angle_fdb;
 extern float yaw_speed_ref;
 extern float pit_speed_ref;
 /* 云台相对角度 */
-extern float yaw_relative_angle;
+extern volatile float yaw_relative_angle;
 extern float pit_relative_angle;
 extern char color_flag;
 
@@ -234,6 +236,10 @@ void turn_on_off_friction_wheel(void);
 void pid_reset_manual(void);
 
 void pid_reset_auto(void);
-
+void get_communicate_info(uint8_t* cm_data);
+//通信用全局变量
 extern send_frame auto_tx_data;
+extern  bool_t enable_chassis;
+extern  gimbal_yaw_t gim;
+extern bool_t stop_chassis;
 #endif //BOARD_C_INFANTRY_GIMBAL_H

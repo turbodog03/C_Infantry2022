@@ -326,7 +326,7 @@ HAL_StatusTypeDef HAL_UART_Init(UART_HandleTypeDef *huart)
   if (huart->Init.HwFlowCtl != UART_HWCONTROL_NONE)
   {
     /* The hardware flow control is available only for USART1, USART2, USART3 and USART6.
-       Except for STM32F446xx Devices, that is available for USART1, USART2, USART3, USART6, UART4 and UART5.
+       Except for STM32F446xx devices, that is available for USART1, USART2, USART3, USART6, UART4 and UART5.
     */
     assert_param(IS_UART_HWFLOW_INSTANCE(huart->Instance));
     assert_param(IS_UART_HARDWARE_FLOW_CONTROL(huart->Init.HwFlowCtl));

@@ -8,10 +8,12 @@
 #include "gpio.h"
 #include "Gimbal.h"
 #include "keyboard.h"
+#define CAN_UP_TX_INFO 0x134
 /**
   * @brief     CAN 设备发送和接收 ID 枚举
   */
-
+#define COMCAN hcan2
+extern uint8_t down_info[8];
 /**
   * @brief     解析后的遥控器数据结构体
   */
