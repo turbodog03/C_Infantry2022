@@ -72,14 +72,14 @@ void send_chassis_moto_zero_current(void)
 //    data[7] = 0;
 //
 //    write_can(hcan1, CAN_CHASSIS_ID, data);
-stop_chassis = 1;
+    stop_chassis = 1;
 }
 
 void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan){
     CAN_RxHeaderTypeDef rx_header;
     uint8_t rx_data[8];
     HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rx_header, rx_data);
-    if(hcan==&hcan2){
+    if(hcan==&COM_CAN){
         switch (rx_header.StdId){
             case CAN_DOWN_TX_INFO :
                 chassis_mode = rx_data[0];
@@ -88,9 +88,8 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan){
                 break;
         }
     }
-    if(hcan==&hcan1) {
+    if(hcan==&CONTROL_CAN) {
         switch (rx_header.StdId) {
-
             case CAN_YAW_MOTOR_ID: {
                 if (YawMotor.msg_cnt++ <= 50)
                     get_motor_offset(&YawMotor, rx_data);
@@ -200,7 +199,7 @@ void write_can(CAN_HandleTypeDef can, uint32_t send_id, uint8_t send_data[]){
     tx_message.RTR = CAN_RTR_DATA;
     tx_message.DLC = 0x08;
     for(int i=0;i<8;i++)
-    can_send_data[i] = send_data[i];
+        can_send_data[i] = send_data[i];
     HAL_CAN_AddTxMessage(&can, &tx_message, can_send_data, &send_mail_box);
 }
 
@@ -267,6 +266,52 @@ static void encoder_data_handle(moto_measure_t *ptr, uint8_t data[])
   * @brief     发送云台电机电流数据到电调
   */
 extern int16_t trigger_moto_current;
+
+//#ifdef TEST_ON_ICRA
+//void send_gimbal_moto_current(int16_t yaw_current, int16_t pit_current)
+//{
+//    static uint8_t data[8];
+//    static uint8_t data_yaw[8];
+//
+//    data[0] = 0;
+//    data[1] = 0;
+//    data[2] = pit_current >> 8;
+//    data[3] = pit_current;
+//    //data[4] = trigger_current >> 8;
+//    //data[5] = trigger_current;
+//    data[6] = 0;
+//    data[7] = 0;
+//
+//    data_yaw[0] = 0;
+//    data_yaw[1] = 0;
+//    data_yaw[2] = 0;
+//    data_yaw[3] = 0;
+//    data_yaw[4] = yaw_current >> 8;
+//    data_yaw[5] = yaw_current;
+//    data_yaw[6] = 0;
+//    data_yaw[7] = 0;
+//
+//    write_can(CONTROL_CAN, CAN_GIMBAL_ID_PITCH, data);
+//    write_can(CONTROL_CAN, CAN_GIMBAL_ID_YAW, data_yaw);
+//}
+//void send_gimbal_moto_zero_current(void)
+//{
+//    static uint8_t data[8];
+//
+//    data[0] = 0;
+//    data[1] = 0;
+//    data[2] = 0;
+//    data[3] = 0;
+//    data[4] = 0;
+//    data[5] = 0;
+//    data[6] = 0;
+//    data[7] = 0;
+//
+//    write_can(CONTROL_CAN, CAN_GIMBAL_ID_YAW, data);
+//    write_can(CONTROL_CAN, CAN_GIMBAL_ID_PITCH, data);
+//}
+//
+//#else
 void send_gimbal_moto_current(int16_t yaw_current, int16_t pit_current)
 {
     static uint8_t data[8];
@@ -280,7 +325,7 @@ void send_gimbal_moto_current(int16_t yaw_current, int16_t pit_current)
     data[6] = 0;
     data[7] = 0;
 
-    write_can(hcan1, CAN_GIMBAL_ID, data);
+    write_can(CONTROL_CAN, CAN_GIMBAL_ID, data);
 }
 void send_gimbal_moto_zero_current(void)
 {
@@ -295,8 +340,9 @@ void send_gimbal_moto_zero_current(void)
     data[6] = 0;
     data[7] = 0;
 
-    write_can(hcan1, CAN_GIMBAL_ID, data);
+    write_can(CONTROL_CAN, CAN_GIMBAL_ID, data);
 }
+//#endif
 
 void send_shoot_moto_current(int16_t left_current,int16_t right_current, int16_t trigger_current)
 {
@@ -311,7 +357,7 @@ void send_shoot_moto_current(int16_t left_current,int16_t right_current, int16_t
     data[6] = 0;
     data[7] = 0;
 
-    write_can(hcan1, CAN_CHASSIS_ID, data);
+    write_can(CONTROL_CAN, CAN_CHASSIS_ID, data);
 }
 
 void sendSuperCap(void)
@@ -320,6 +366,6 @@ void sendSuperCap(void)
     uint8_t sendbuf[8];//发送的数据内容
     sendbuf[0]=temPower >> 8;
     sendbuf[1]=temPower;
-    write_can(hcan2, CAN_SUPER_CAP_ID, sendbuf);
+    write_can(COM_CAN, CAN_SUPER_CAP_ID, sendbuf);
 
 }

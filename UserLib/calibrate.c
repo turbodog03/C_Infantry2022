@@ -50,9 +50,10 @@ static void save_cali_data(void)
   */
 void read_cali_data(void)
 {
-//  read_flash((uint8_t*)&glb_cali_data, sizeof(global_cali_t));
-    glb_cali_data.gimbal_cali_data.pit_offset=0x1BD0;
-    glb_cali_data.gimbal_cali_data.yaw_offset=0x1730;
+//      read_flash((uint8_t*)&glb_cali_data, sizeof(global_cali_t));
+//直接读出来的校准数据。电机摆放改变则不再适用，需要重新测出
+    glb_cali_data.gimbal_cali_data.pit_offset=0x17F0;
+    glb_cali_data.gimbal_cali_data.yaw_offset=0x127D;
     glb_cali_data.gimbal_cali_data.calied_flag=CALIED_FLAG;
 }
 

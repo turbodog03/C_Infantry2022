@@ -216,6 +216,7 @@ void USART3_IRQHandler(void)
                 HAL_GPIO_WritePin(GPIOH,GPIO_PIN_12,GPIO_PIN_SET);
 
             }
+            err_detector_hook(REMOTE_CTRL_OFFLINE);
         }
     }
 }

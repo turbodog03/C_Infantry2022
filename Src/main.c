@@ -36,6 +36,7 @@
 /* USER CODE BEGIN Includes */
 #include "bsp_uart.h"
 #include "bsp_tim.h"
+#include "bsp_delay.h"
 #include <calibrate.h>
 #include <bsp_dwt.h>
 #include <bsp_can.h>
@@ -130,6 +131,7 @@ int main(void)
   CAN_Device_Init();
   set_pwm_group_param(1, 20000);
   read_cali_data();
+  delay_init();
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in freertos.c) */

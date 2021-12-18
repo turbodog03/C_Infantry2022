@@ -4,6 +4,17 @@
 
 #ifndef TRANSMISSION_H
 #define TRANSMISSION_H
+
+#define TEST_ON_ICRA
+
+#ifdef TEST_ON_ICRA
+#define COM_CAN hcan1
+#define CONTROL_CAN hcan2
+#else
+#define COMCAN hcan2
+#define CONTROL_CAN hcan1
+#endif
+
 #include "cmsis_os.h"
 #include "gpio.h"
 #include "Gimbal.h"
@@ -12,8 +23,7 @@
 /**
   * @brief     CAN 设备发送和接收 ID 枚举
   */
-#define COMCAN hcan2
-extern uint8_t down_info[8];
+//extern uint8_t down_info[8];
 /**
   * @brief     解析后的遥控器数据结构体
   */
@@ -110,7 +120,7 @@ typedef struct
     uint8_t         last_sw2;
 } chassis_t;
 
-
+void Send_CM_Data(CAN_HandleTypeDef *_hcan, uint8_t *data);
 
 
 #endif //TRANSMISSION_H

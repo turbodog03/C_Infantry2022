@@ -1,7 +1,3 @@
-//
-// Created by turboDog on 2021/11/27.
-//
-
 #include "bsp_delay.h"
 #include "main.h"
 
@@ -78,4 +74,3 @@ void delay_ms(uint16_t nms)
         }
     }
 }
-

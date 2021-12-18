@@ -4,18 +4,19 @@
 
 #include "bsp_imu.h"
 #include "Ins.h"
+#include "math.h"
+
+
+
 
 void get_imu_data(imu_t *imu_data){
-    const fp32 *pAngle = get_INS_angle_point();
-    const fp32 *pGyro = get_gyro_data_point();
-    const fp32 *pAcc = get_accel_data_point();
-    imu_data->acc_x = pAcc[0];
-    imu_data->acc_y = pAcc[1];
-    imu_data->acc_z = pAcc[2];
-    imu_data->angle_x = pAngle[0];
-    imu_data->angle_y = pAngle[1];
-    imu_data->angle_z = pAngle[2];
-    imu_data->gyro_x = pGyro[0];
-    imu_data->gyro_y = pGyro[1];
-    imu_data->gyro_z = pGyro[2];
+    imu_data->acc_x = bmi088_real_data.accel[0];
+    imu_data->acc_y = bmi088_real_data.accel[1];
+    imu_data->acc_z = bmi088_real_data.accel[2];
+    imu_data->angle_x = INS_angle[0]* 180 / PI;
+    imu_data->angle_y = INS_angle[1]* 180 / PI;
+    imu_data->angle_z = INS_angle[2]* 180 / PI;
+    imu_data->gyro_x = bmi088_real_data.gyro[0];
+    imu_data->gyro_y = bmi088_real_data.gyro[1];
+    imu_data->gyro_z = bmi088_real_data.gyro[2];
 }

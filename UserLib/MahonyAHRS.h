@@ -1,9 +1,3 @@
-//
-// Created by turboDog on 2021/11/27.
-//
-
-#ifndef BOARD_C_INFANTRY_MAHONYAHRS_H
-#define BOARD_C_INFANTRY_MAHONYAHRS_H
 //=====================================================================================================
 // MahonyAHRS.h
 //=====================================================================================================
@@ -16,7 +10,8 @@
 // 02/10/2011	SOH Madgwick	Optimised for reduced CPU load
 //
 //=====================================================================================================
-
+#ifndef MahonyAHRS_h
+#define MahonyAHRS_h
 
 //----------------------------------------------------------------------------------------------------
 // Variable declaration
@@ -31,9 +26,7 @@ extern volatile float q0, q1, q2, q3;	// quaternion of sensor frame relative to 
 void MahonyAHRSupdate(float q[4], float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz);
 void MahonyAHRSupdateIMU(float q[4], float gx, float gy, float gz, float ax, float ay, float az);
 
-
+#endif
 //=====================================================================================================
 // End of file
 //=====================================================================================================
-
-#endif //BOARD_C_INFANTRY_MAHONYAHRS_H

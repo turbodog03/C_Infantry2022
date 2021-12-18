@@ -13,6 +13,7 @@
 #include "motor.h"
 #include "stm32f4xx_hal_can.h"
 
+
 float Motor_Torque_Calculate(Motor_t *motor, float torque, float target_torque)
 {
     // 前馈控制

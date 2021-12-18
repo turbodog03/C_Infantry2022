@@ -8,6 +8,7 @@
 #include <user_lib.h>
 #include "stm32f4xx_hal.h"
 #include "bsp_imu.h"
+#include "Transmission.h"
 
 /* 云台控制周期 (ms) */
 #define GIMBAL_PERIOD 5
@@ -27,6 +28,69 @@
 #define RC_MOUSE_YAW_RATIO 5
 #define RC_MOUSE_PITCH_RATIO -5
 
+//icra车用另外一套pid
+#ifdef TEST_ON_ICRA
+
+#define YAW_V_PID_MAXOUT_M 8000
+#define YAW_V_PID_MAXINTEGRAL_M 3000
+#define YAW_V_PID_KP_M 150
+#define YAW_V_PID_KI_M 10
+#define YAW_V_PID_KD_M 0.01
+#define YAW_V_PID_LPF_M 0.000001
+#define YAW_V_PID_D_LPF_M 0.000001
+
+#define YAW_A_PID_MAXOUT_M 320
+#define YAW_A_PID_MAXINTEGRAL_M 320
+#define YAW_A_PID_KP_M 15
+#define YAW_A_PID_KI_M 0.3
+#define YAW_A_PID_KD_M 0.001
+
+#define YAW_V_PID_MAXOUT_A 8000
+#define YAW_V_PID_MAXINTEGRAL_A 3000
+#define YAW_V_PID_KP_A 5
+#define YAW_V_PID_KI_A 0.2
+#define YAW_V_PID_KD_A 0.2
+#define YAW_V_PID_LPF_A 0.000001
+#define YAW_V_PID_D_LPF_A 0.000001
+
+#define YAW_A_PID_MAXOUT_A 4000
+#define YAW_A_PID_MAXINTEGRAL_A 50
+#define YAW_A_PID_KP_A 5
+#define YAW_A_PID_KI_A 20
+#define YAW_A_PID_KD_A 0.05
+
+
+#define PITCH_V_PID_MAXOUT 16000
+#define PITCH_V_PID_MAXINTEGRAL 2000
+//改动
+#define PITCH_V_PID_KP 6
+#define PITCH_V_PID_KI 2.0
+#define PITCH_V_PID_KD 0.015
+#define PITCH_V_PID_LPF 0.000001
+#define PITCH_V_PID_D_LPF 0.08
+
+#define PITCH_A_PID_MAXOUT 3000
+#define PITCH_A_PID_MAXINTEGRAL 600
+//改动
+#define PITCH_A_PID_KP 30
+#define PITCH_A_PID_KI 180
+#define PITCH_A_PID_KD 3.5
+#define PITCH_A_PID_LPF 0.1
+#define PITCH_A_PID_D_LPF 0.01
+
+#define PITCH_V_FFC_MAXOUT 30000
+#define PITCH_V_FCC_C0 25
+#define PITCH_V_FCC_C1 100 * 0
+#define PITCH_V_FCC_C2 0
+#define PITCH_V_FCC_LPF 0.005
+
+#define PITCH_A_FFC_MAXOUT 320
+#define PITCH_A_FCC_C0 0
+#define PITCH_A_FCC_C1 1
+#define PITCH_A_FCC_C2 0
+#define PITCH_A_FCC_LPF 0.00001
+
+#else
 #define YAW_V_PID_MAXOUT_M 8000
 #define YAW_V_PID_MAXINTEGRAL_M 3000
 #define YAW_V_PID_KP_M 300
@@ -82,6 +146,7 @@
 #define PITCH_A_FCC_C1 1
 #define PITCH_A_FCC_C2 0
 #define PITCH_A_FCC_LPF 0.00001
+#endif
 
 /**
   * @brief     云台控制任务函数

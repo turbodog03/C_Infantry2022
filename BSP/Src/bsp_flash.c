@@ -296,3 +296,11 @@ uint32_t get_next_flash_address(uint32_t address)
 void write_flash(uint8_t *write_data, uint32_t len){
     flash_write_single_address(USER_FLASH_ADDRESS,(uint32_t *)write_data,len);
 }
+/**
+  * @brief     读 FLASH 设备
+  * @param     read_data: 读取数据的指针
+  * @param     len: 读取数据的长度
+  */
+void read_flash(uint8_t *read_data, uint32_t len){
+    flash_read(USER_FLASH_ADDRESS,(uint32_t)read_data,len);
+}

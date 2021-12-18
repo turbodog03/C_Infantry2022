@@ -1,9 +1,3 @@
-//
-// Created by turboDog on 2021/11/27.
-//
-
-#ifndef BOARD_C_INFANTRY_INS_H
-#define BOARD_C_INFANTRY_INS_H
 /**
   ****************************(C) COPYRIGHT 2019 DJI****************************
   * @file       INS_task.c/h
@@ -27,10 +21,12 @@
   ****************************(C) COPYRIGHT 2019 DJI****************************
   */
 
+#ifndef INS_Task_H
+#define INS_Task_H
 #include "stdint.h"
 #include "user_lib.h"
-//期望温度
-#define SET_TEMP 45.0f
+#include "BMI088driver.h"
+#include "ist8310driver.h"
 
 #define SPI_DMA_GYRO_LENGHT       8
 #define SPI_DMA_ACCEL_LENGHT      9
@@ -88,7 +84,7 @@
   * @param[in]      pvParameters: NULL
   * @retval         none
   */
-extern void ins_task(void const *pvParameters);
+extern void INS_task(void const *pvParameters);
 
 /**
   * @brief          calculate gyro zero drift
@@ -182,10 +178,7 @@ extern const fp32 *get_accel_data_point(void);
   * @retval         INS_mag的指针
   */
 extern const fp32 *get_mag_data_point(void);
-/**
-  * @brief     读取 IMU 数据
-  * @param     imu_data: 接收 IMU 数据的结构体指针
-  * @usage     需要在循环任务中调用，用来刷新 IMU 数据
-  */
 
-#endif //BOARD_C_INFANTRY_INS_H
+extern fp32 INS_angle[3];
+extern bmi088_real_data_t bmi088_real_data;
+#endif

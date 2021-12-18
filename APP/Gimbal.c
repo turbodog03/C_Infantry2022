@@ -158,7 +158,7 @@ void gimbal_task(const void* argu)
 //			auto_tx_data.shootStatusGet = 0;
 //		last_cnt=shoot_cnt;
 
-        write_uart(NUC_UART,(uint8_t*)&auto_tx_data,sizeof(auto_tx_data));
+ //       write_uart(NUC_UART,(uint8_t*)&auto_tx_data,sizeof(auto_tx_data));
         //云台任务周期控制 5ms
         osDelayUntil(&gimbal_wake_time, GIMBAL_PERIOD);
     }
@@ -305,12 +305,12 @@ void get_gimbal_mode(void)
                     gim.no_action_flag = 0;
 
                     yaw_angle_ref = 0;
-                    gim.yaw_offset_angle = imu.angle_z;
+                    gim.yaw_offset_angle = imu.angle_x;
                 }
 
             }
             //TODO：to be tested
-            if (down_info[0] == CHASSIS_SPIN)
+            if (chassis_mode == CHASSIS_SPIN)
             {
                 if (gim.ctrl_mode == GIMBAL_NO_ACTION)
                 {
@@ -318,7 +318,7 @@ void get_gimbal_mode(void)
                     gim.no_action_flag = 0;
 
                     yaw_angle_ref = 0;
-                    gim.yaw_offset_angle = imu.angle_z;
+                    gim.yaw_offset_angle = imu.angle_x;
                 }
             }
 
@@ -342,7 +342,7 @@ void get_gimbal_mode(void)
                 gim.no_action_flag = 0;
 
                 yaw_angle_ref = 0;
-                gim.yaw_offset_angle = imu.angle_z;
+                gim.yaw_offset_angle = imu.angle_x;
             }
         }break;
         default:
@@ -361,10 +361,10 @@ void gimbal_loop_handle(void)
     //fdb for feedback
     pit_angle_fdb = pit_relative_angle;
     //pit_angle_fdb = gim.pit_offset_angle-imu.angle_y;
-    yaw_angle_fdb = imu.angle_z - gim.yaw_offset_angle;
+    yaw_angle_fdb = imu.angle_x - gim.yaw_offset_angle;
 
     //chassis_angle_tmp = yaw_angle_fdb - yaw_relative_angle;
-    if (down_info[0] != CHASSIS_FIXED_ROUTE)
+    if (chassis_mode != CHASSIS_FIXED_ROUTE)
     {
         gimbal_yaw_control();
         gimbal_pitch_control();
@@ -373,6 +373,10 @@ void gimbal_loop_handle(void)
 //    {
 //      VAL_LIMIT(yaw_angle_ref, chassis_angle_tmp + YAW_ANGLE_MIN, chassis_angle_tmp + YAW_ANGLE_MAX);
 //    }
+#ifdef TEST_ON_ICRA
+        //限制yaw轴的活动角度
+        VAL_LIMIT(yaw_angle_ref, YAW_ANGLE_MIN, YAW_ANGLE_MAX);
+#endif
         //限制pitch轴的活动角度
         if ((pit_relative_angle >= PIT_ANGLE_MIN) && (pit_relative_angle <= PIT_ANGLE_MAX))
         {
@@ -393,6 +397,7 @@ void gimbal_init_handle(void)
 
     switch (gimbal_back_step)
     {
+        //在pitch轴没有回中完成之前不会进行yaw轴的回中
         case BACK_PIT_STEP:
         {
             /* keep yaw unmove this time */
@@ -416,7 +421,7 @@ void gimbal_init_handle(void)
             /* yaw arrive and switch gimbal state */
             gim.ctrl_mode = GIMBAL_CLOSE_LOOP_ZGYRO;
 
-            gim.yaw_offset_angle = imu.angle_z;
+            gim.yaw_offset_angle = imu.angle_x;
             gim.pit_offset_angle = imu.angle_y;
             pit_angle_ref = 0;
             yaw_angle_ref = 0;
@@ -440,14 +445,14 @@ void gimbal_noaction_handle(void)
             gim.no_action_flag = 2;
             //以下两句代码只执行一次
             yaw_angle_ref = 0;
-            gim.yaw_offset_angle = imu.angle_z;//重置初始角度
+            gim.yaw_offset_angle = imu.angle_x;//重置初始角度
         }
     }
 
     if (gim.no_action_flag == 2)
     {
         pit_angle_fdb = pit_relative_angle;
-        yaw_angle_fdb = imu.angle_z - gim.yaw_offset_angle;;
+        yaw_angle_fdb = imu.angle_x - gim.yaw_offset_angle;;
     }
 }
 
@@ -578,7 +583,9 @@ void gimbal_custom_control(void)
 //  yaw_speed_ref  = pid_calc(&pid_yaw, yaw_angle_fdb, yaw_angle_ref);    //degree
 //  /* yaw轴电机电流计算 */
 //  yaw_moto_current = pid_calc(&pid_yaw_speed, imu.gyro_z, yaw_speed_ref+(pid_yaw.err[NOW] - pid_yaw.err[LAST])); //degree/s
+//yaw轴速度为gyro_z
     yaw_moto_current = Motor_Angle_Calculate(&YawMotor, yaw_angle_fdb,imu.gyro_z,yaw_angle_ref);
+
 
     /* pitch轴俯仰角度限制 */
     VAL_LIMIT(pit_angle_ref, PIT_ANGLE_MIN, PIT_ANGLE_MAX);
@@ -590,7 +597,8 @@ void gimbal_custom_control(void)
 //	//滤波
 //	pit_moto_current = 0.5*last_current + 0.5*pit_moto_current;
 //	last_current = pit_moto_current;
-    pit_moto_current = Motor_Angle_Calculate(&PitMotor, pit_angle_fdb,imu.gyro_y,pit_angle_ref);
+//pitch轴速度为gyro_x
+    pit_moto_current = Motor_Angle_Calculate(&PitMotor, pit_angle_fdb,imu.gyro_x,pit_angle_ref);
 
     //发送电流到云台电机电调
     send_gimbal_moto_current(yaw_moto_current, pit_moto_current);

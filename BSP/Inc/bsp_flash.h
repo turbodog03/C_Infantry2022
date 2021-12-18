@@ -130,5 +130,10 @@ extern uint32_t get_next_flash_address(uint32_t address);
   * @param     len: 写入数据的长度
   */
 void write_flash(uint8_t *write_data, uint32_t len);
-
+/**
+  * @brief     读 FLASH 设备
+  * @param     read_data: 读取数据的指针
+  * @param     len: 读取数据的长度
+  */
+void read_flash(uint8_t *read_data, uint32_t len);
 #endif //BOARD_C_INFANTRY_BSP_FLASH_H

@@ -1,12 +1,14 @@
-//
-// Created by turboDog on 2021/11/27.
-//
+#ifndef BSP_SPI_H
+#define BSP_SPI_H
+#include "stdint.h"
 
-#ifndef BOARD_C_INFANTRY_BSP_IMU_H
-#define BOARD_C_INFANTRY_BSP_IMU_H
+extern void SPI1_DMA_init(uint32_t tx_buf, uint32_t rx_buf, uint16_t num);
+extern void SPI1_DMA_enable(uint32_t tx_buf, uint32_t rx_buf, uint16_t ndtr);
+
 /**
   * @brief     IMU 数据结构体
   */
+
 typedef struct
 {
     float acc_x;   //m/s^2
@@ -20,10 +22,5 @@ typedef struct
     float angle_z; //degree
 } imu_t;
 
-/**
-  * @brief     读取 IMU 数据
-  * @param     imu_data: 接收 IMU 数据的结构体指针
-  * @usage     需要在循环任务中调用，用来刷新 IMU 数据
-  */
 void get_imu_data(imu_t *imu_data);
-#endif //BOARD_C_INFANTRY_BSP_IMU_H
+#endif

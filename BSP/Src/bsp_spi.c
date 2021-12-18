@@ -1,7 +1,3 @@
-//
-// Created by turboDog on 2021/11/27.
-//
-
 #include "bsp_spi.h"
 #include "main.h"
 
