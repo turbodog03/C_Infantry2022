@@ -7,14 +7,18 @@
 #include "bsp_can.h"
 #include "bsp_uart.h"
 #include "Gimbal.h"
+#include "QuaternionAHRS.h"
+
 //
 //uint8_t down_info[8];
 static uint8_t cm_data[8] = {0};
+char vofatail[4] = {0x00, 0x00, 0x80, 0x7f};
 void transmission_task(void const * argument)
 {
     /* USER CODE BEGIN transmit_task */
     uint32_t transmission_wake_time = osKernelSysTick();
     HAL_GPIO_WritePin(LED_B_GPIO_Port,LED_B_Pin,GPIO_PIN_SET);
+    float angle[3]={0};
     /* Infinite loop */
     //TODO:找到下板程序挂起的地方，找个地方接收这个变量唤醒它
     for(;;) {
@@ -26,6 +30,11 @@ void transmission_task(void const * argument)
         //write_can(COM_CAN,CAN_UP_TX_INFO,cm_data);
         osDelay(1);
         Send_CM_Data(&COM_CAN,cm_data);
+        angle[0]=-AHRS.Pitch;
+        angle[1]=-AHRS.Roll;
+        angle[2]=-AHRS.Yaw;
+        write_uart(1,(uint8_t *)&angle,sizeof(float)*3);
+        write_uart(1, (uint8_t *)&vofatail, sizeof(vofatail));
         osDelayUntil(&transmission_wake_time, 45);
     }
     /* USER CODE END transmit_task */

@@ -5,7 +5,6 @@
 #include "bsp_tim.h"
 void start_pwm_output(uint8_t pwm_id){
     HAL_TIM_Base_Start(&htim1);
-    HAL_TIM_Base_Start(&htim10);
     switch (pwm_id) {
         case 1:
         {

@@ -4,13 +4,14 @@
   * @author  Wang Hongxi
   * @version V1.0.0
   * @date    2020/2/14
-  * @brief   
+  * @brief
   ******************************************************************************
   * @attention
   *
   ******************************************************************************
   */
 #include "bsp_dwt.h"
+#include "core_cm4.h"
 
 static uint32_t CPU_FREQ_Hz;
 static uint32_t CYCCNT_RountCount;
@@ -59,6 +60,17 @@ float DWT_GetTimeline(void)
     DWT_Timeline = ((uint64_t)((uint64_t)CYCCNT_RountCount * (uint64_t)UINT32_MAX) + (uint64_t)cnt_now) / ((float)(CPU_FREQ_Hz));
 
     CYCCNT_Last = cnt_now;
-	
-	return DWT_Timeline;
+
+    return DWT_Timeline;
 }
+
+void DWT_Delay(float Delay)
+{
+    uint32_t tickstart = DWT->CYCCNT;
+    float wait = Delay;
+
+    while((DWT->CYCCNT - tickstart) < wait * (float)CPU_FREQ_Hz)
+    {
+    }
+}
+

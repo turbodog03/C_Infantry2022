@@ -5,13 +5,13 @@
 #ifndef TRANSMISSION_H
 #define TRANSMISSION_H
 
-#define TEST_ON_ICRA
+
 
 #ifdef TEST_ON_ICRA
 #define COM_CAN hcan1
 #define CONTROL_CAN hcan2
 #else
-#define COMCAN hcan2
+#define COM_CAN hcan2
 #define CONTROL_CAN hcan1
 #endif
 

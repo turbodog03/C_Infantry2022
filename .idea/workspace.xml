@@ -7,83 +7,756 @@
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug-MinGW _ARM" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW _ARM" />
+      <configuration PROFILE_NAME="Debug-MinGW-STM32" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW-STM32" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="725fd37b-0e84-49e7-99d7-87f96a2ae7e6" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Gimbal.c" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Gimbal.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Gimbal.h" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Gimbal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Ins.c" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Ins.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Ins.h" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Ins.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Transmission.c" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Transmission.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/Transmission.h" beforeDir="false" afterPath="$PROJECT_DIR$/APP/Transmission.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Inc/bsp_can.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Inc/bsp_can.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Inc/bsp_delay.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Inc/bsp_delay.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Inc/bsp_flash.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Inc/bsp_flash.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Inc/bsp_imu.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Inc/bsp_imu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Src/bsp_can.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Src/bsp_can.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Src/bsp_delay.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Src/bsp_delay.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Src/bsp_flash.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Src/bsp_flash.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Src/bsp_imu.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Src/bsp_imu.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Src/bsp_spi.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Src/bsp_spi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Src/bsp_uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Src/bsp_uart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board_C_Infantry.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Board_C_Infantry.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Devices/BMI088driver.c" beforeDir="false" afterPath="$PROJECT_DIR$/Devices/BMI088driver.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/freertos.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/freertos.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserLib/MahonyAHRS.c" beforeDir="false" afterPath="$PROJECT_DIR$/UserLib/MahonyAHRS.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserLib/MahonyAHRS.h" beforeDir="false" afterPath="$PROJECT_DIR$/UserLib/MahonyAHRS.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserLib/calibrate.c" beforeDir="false" afterPath="$PROJECT_DIR$/UserLib/calibrate.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserLib/motor.c" beforeDir="false" afterPath="$PROJECT_DIR$/UserLib/motor.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Board_C_Infantry.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CMakeASMCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Gimbal.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Gimbal.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Ins.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Shoot.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/APP/Transmission.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/ASM.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/ASM.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_can.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_delay.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_flash.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_imu.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_imu.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_spi.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/BSP/Src/bsp_uart.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Devices/BMI088Middleware.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Devices/ist8310driver_middleware.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/freertos.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/freertos.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/MahonyAHRS.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/calibrate.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/keyboard.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/UserLib/motor.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Board_C_Infantry.elf.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-_arm/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.idea/artifacts/LRMS_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/LRMS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/aspectjrt-1.7.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/aspectjweaver-1.7.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/c3p0-0.9.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/commons-fileupload-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/commons-io-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/commons-lang-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/hibernate-commons-annotations-4.0.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/hibernate-core-4.2.21.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/jackson-all-1.9.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/jackson-annotations-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/jackson-core-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/jackson-databind-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/jboss-logging-3.1.0.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/jspsmartupload.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/jstl-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/mysql-connector-java-5.1.15-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/poi-3.11-20141221.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/poi-ooxml-3.11-20141221.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/poi-ooxml-schemas-3.11-20141221.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/slf4j-api-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-aop-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-aspects-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-beans-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-build-src-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-context-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-context-support-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-core-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-expression-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-framework-bom-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-instrument-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-instrument-tomcat-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-jdbc-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-jms-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-orm-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-oxm-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-struts-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-test-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-tx-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-web-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/spring-webmvc-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/lib/xmlbeans-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/AnnouncementList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/addAnnouncement.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/addCourse.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/addLaboratory.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/addTerm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/changePwd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/common-header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/common-ui.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/courseList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/deleteAnnouncementList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/findPwd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/labList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/manage_reservation_info.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/personInfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/reservation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/reserveLabList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/schedule_table.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/selectCourse.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/selectReservation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/updateCourse.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/updateLab.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/update_reservation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/uploadCourse_User.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/jsp/userList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/My97DatePicker.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/WdatePicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/lang/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/skin/WdatePicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/skin/datePicker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/skin/default/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/skin/default/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/skin/whyGreen/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/skin/whyGreen/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/skin/whyGreen/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/开发包/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/开发包/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/开发包/lang/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/开发包/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/开发包/skin/WdatePicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/开发包/skin/datePicker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/开发包/skin/default/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/开发包/skin/default/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/开发包/skin/whyGreen/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/开发包/skin/whyGreen/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/My97DatePicker/开发包/skin/whyGreen/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/css/buttonStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/css/datetimepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/css/div.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/css/select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/kindeditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_01.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_02.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_03.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_04.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_05.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_06.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_07.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_08.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_09.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/emoticons/etc_36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/flash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/media.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/plainpaste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/remote_image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/plugins/wordpaste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/skins/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/skins/default.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/skins/div.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/skins/dl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/skins/editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/skins/ol.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/skins/p.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/skins/tinymce.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/skins/tinymce.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/editor/skins/ul.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/btnbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/btnbg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/btnbg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/buttonbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/c01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/c02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/c03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/cbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/clist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/close1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/d01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/d02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/d03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/d04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/d05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/d06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/d07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/diskbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/f01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/f02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/f03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/f04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/f05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/f06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/i01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/i02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/i03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/i04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/i05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/i06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/i07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/i08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/i09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/iadd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/ibtnbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/ico01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/ico02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/ico03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/ico04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/ico05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/ico06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/icon01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/icon02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/icon03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/icon04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/icon05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/icon06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/img15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/inputbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/itabbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/itabbg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/leftico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/leftico01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/leftico02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/leftico03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/leftico04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/leftline.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/leftmenubg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/lefttop.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/leftuser2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/libg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/line1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/list.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/list1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/list2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/loginbg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/loginbg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/loginbg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/logininfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/loginlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/loginpassword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/loginsj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/loginuser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/msg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/navbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/next.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/pre.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/px.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/righttop.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/rlist.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/sj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/sun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/t01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/t02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/t03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/t04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/t05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/tbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/tcbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/th.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/ticon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/toolbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/topbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/topleft.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/topright.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/ub1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/uew_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/uew_icon_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/ulist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images/userbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images1/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/images1/login1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/jquery.datetimepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/js/PIE.htc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/js/cloud.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/js/format+zh_CN,default,corechart.I.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/js/jquery.ba-resize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/js/jquery.gvChart-1.0.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/js/jquery.idTabs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/js/jsapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/WebContent/resource/js/select-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/ApplicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/controller/CourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/controller/LaboratoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/controller/ReserveController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/dao/CourseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/dao/LaboratoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/dao/ReserveLaboratoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/daoimpl/CourseDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/daoimpl/LaboratoryDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/daoimpl/ReserveLaboratoryDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/daoimpl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/entity/Announcement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/entity/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/entity/Course_user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/entity/Laboratory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/entity/Reservation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/entity/Schedule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/entity/Term.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/entity/lab_reservation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/entity/lab_schedule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/entity/user_lab_reservation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/interceptor/LoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/other/ExecResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/service/CourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/service/LaboratoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/service/ReserveLaboratoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/serviceimpl/CourseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/serviceimpl/LaboratoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/serviceimpl/ReserveLaboratoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/serviceimpl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/build/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/ApplicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/controller/CourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/controller/LaboratoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/controller/ReserveController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/dao/CourseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/dao/LaboratoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/dao/ReserveLaboratoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/daoimpl/CourseDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/daoimpl/LaboratoryDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/daoimpl/ReserveLaboratoryDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/daoimpl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/entity/Announcement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/entity/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/entity/Course_user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/entity/Laboratory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/entity/Reservation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/entity/Schedule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/entity/Term.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/entity/lab_reservation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/entity/lab_schedule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/entity/user_lab_reservation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/interceptor/LoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/other/ExecResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/service/CourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/service/LaboratoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/service/ReserveLaboratoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/serviceimpl/CourseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/serviceimpl/LaboratoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/serviceimpl/ReserveLaboratoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/serviceimpl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/aspectjrt-1.7.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/aspectjweaver-1.7.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/commons-fileupload-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/commons-io-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/commons-lang-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/hibernate-commons-annotations-4.0.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/hibernate-core-4.2.21.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/jackson-all-1.9.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/jackson-annotations-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/jackson-core-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/jackson-databind-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/jboss-logging-3.1.0.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/jspsmartupload.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/jstl-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/mysql-connector-java-5.1.15-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/poi-3.11-20141221.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/poi-ooxml-3.11-20141221.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/poi-ooxml-schemas-3.11-20141221.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/slf4j-api-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-aop-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-aspects-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-beans-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-build-src-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-context-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-context-support-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-core-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-expression-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-framework-bom-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-instrument-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-instrument-tomcat-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-jdbc-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-jms-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-orm-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-oxm-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-struts-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-test-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-tx-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-web-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/spring-webmvc-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/lib/xmlbeans-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/AnnouncementList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/addAnnouncement.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/addCourse.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/addLaboratory.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/addTerm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/changePwd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/common-header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/common-ui.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/courseList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/deleteAnnouncementList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/findPwd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/labList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/manage_reservation_info.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/personInfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/reservation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/reserveLabList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/schedule_table.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/selectCourse.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/selectReservation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/updateCourse.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/updateLab.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/update_reservation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/uploadCourse_User.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/jsp/userList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/My97DatePicker.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/WdatePicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/lang/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/skin/WdatePicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/skin/datePicker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/skin/default/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/skin/default/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/skin/whyGreen/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/skin/whyGreen/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/skin/whyGreen/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/开发包/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/开发包/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/开发包/lang/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/开发包/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/开发包/skin/WdatePicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/开发包/skin/datePicker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/开发包/skin/default/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/开发包/skin/default/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/开发包/skin/whyGreen/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/开发包/skin/whyGreen/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/My97DatePicker/开发包/skin/whyGreen/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/css/buttonStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/css/datetimepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/css/div.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/css/select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/kindeditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_01.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_02.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_03.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_04.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_05.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_06.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_07.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_08.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_09.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/emoticons/etc_36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/flash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/media.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/plainpaste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/remote_image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/plugins/wordpaste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/skins/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/skins/default.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/skins/div.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/skins/dl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/skins/editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/skins/ol.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/skins/p.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/skins/tinymce.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/skins/tinymce.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/editor/skins/ul.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/btnbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/btnbg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/btnbg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/buttonbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/c01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/c02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/c03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/cbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/clist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/close1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/d01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/d02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/d03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/d04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/d05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/d06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/d07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/diskbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/f01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/f02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/f03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/f04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/f05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/f06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/i01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/i02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/i03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/i04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/i05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/i06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/i07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/i08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/i09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/iadd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/ibtnbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/ico01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/ico02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/ico03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/ico04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/ico05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/ico06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/icon01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/icon02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/icon03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/icon04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/icon05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/icon06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/img15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/inputbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/itabbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/itabbg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/leftico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/leftico01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/leftico02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/leftico03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/leftico04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/leftline.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/leftmenubg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/lefttop.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/leftuser2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/libg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/line1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/list.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/list1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/list2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/loginbg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/loginbg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/loginbg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/logininfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/loginlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/loginpassword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/loginsj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/loginuser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/msg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/navbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/next.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/pre.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/px.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/righttop.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/rlist.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/sj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/sun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/t01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/t02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/t03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/t04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/t05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/tbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/tcbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/th.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/ticon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/toolbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/topbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/topleft.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/topright.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/ub1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/uew_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/uew_icon_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/ulist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images/userbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images1/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/images1/login1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/jquery.datetimepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/js/PIE.htc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/js/cloud.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/js/format+zh_CN,default,corechart.I.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/js/jquery.ba-resize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/js/jquery.gvChart-1.0.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/js/jquery.idTabs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/js/jsapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/classes/artifacts/LRMS_Web_exploded/resource/js/select-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/resource/ApplicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/resource/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/resource/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/controller/CourseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/controller/LaboratoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/controller/ReserveController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/dao/CourseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/dao/LaboratoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/dao/ReserveLaboratoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/daoimpl/CourseDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/daoimpl/LaboratoryDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/daoimpl/ReserveLaboratoryDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/daoimpl/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/entity/Announcement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/entity/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/entity/Course_user.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/entity/Laboratory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/entity/Reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/entity/Schedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/entity/Term.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/entity/lab_reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/entity/lab_schedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/entity/user_lab_reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/interceptor/LoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/interceptor/LoginInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/other/ExecResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/service/CourseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/service/LaboratoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/service/ReserveLaboratoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/serviceimpl/CourseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/serviceimpl/LaboratoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/serviceimpl/ReserveLaboratoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/src/serviceimpl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LRMS2/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lrms.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,9 +782,9 @@
       </list>
     </option>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW _ARM" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW-STM32" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -125,6 +798,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="20zzQJ0RFsVIODWes7mW5V9ipQ3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -137,12 +811,17 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UserLib" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
     <property name="settings.editor.splitter.proportion" value="0.1985494" />
     <property name="structure.view.defaults.are.configured" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HLiamso\Desktop\C_Infantry2022-master\UserLib" />
+      <recent name="C:\Users\HLiamso\Desktop\C_Infantry2022-master\Devices" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Inc" />
       <recent name="D:\turboDog\Documents\projects\C_Infantry2022\Board_C_Infantry\BSP\Src" />
@@ -155,13 +834,18 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Board_C_Infantry.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Board_C_Infantry" TARGET_NAME="Board_C_Infantry.elf" CONFIG_NAME="Debug-MinGW _ARM" RUN_TARGET_PROJECT_NAME="Board_C_Infantry" RUN_TARGET_NAME="Board_C_Infantry.elf">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Board_C_Infantry.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Board_C_Infantry" TARGET_NAME="Board_C_Infantry.elf" CONFIG_NAME="Debug-MinGW-STM32" RUN_TARGET_PROJECT_NAME="Board_C_Infantry" RUN_TARGET_NAME="Board_C_Infantry.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OCD Board_C_Infantry" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Board_C_Infantry" TARGET_NAME="Board_C_Infantry.elf" CONFIG_NAME="Debug-MinGW _ARM" version="1" RUN_TARGET_PROJECT_NAME="Board_C_Infantry" RUN_TARGET_NAME="Board_C_Infantry.elf">
-      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\turboDog\Documents\rm\robomaster_a1.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+    <configuration name="OCD Board_C_Infantry" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Board_C_Infantry" TARGET_NAME="Board_C_Infantry.elf" CONFIG_NAME="Debug-MinGW-STM32" version="1" RUN_TARGET_PROJECT_NAME="Board_C_Infantry" RUN_TARGET_NAME="Board_C_Infantry.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board/rmdap.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
         <debugger kind="GDB" isBundled="true" />
       </openocd>
       <method v="2">
@@ -212,6 +896,7 @@
       <workItem from="1639404162901" duration="12088000" />
       <workItem from="1639829879351" duration="1596000" />
       <workItem from="1639831509424" duration="9710000" />
+      <workItem from="1643044173654" duration="2301000" />
     </task>
     <servers />
   </component>
@@ -245,18 +930,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Devices/BMI088driver.c</url>
-          <line>155</line>
-          <option name="timeStamp" value="236" />
-        </line-breakpoint>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/APP/Gimbal.c</url>
           <line>363</line>
           <option name="timeStamp" value="242" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/APP/Transmission.c</url>
-          <line>27</line>
+          <line>19</line>
           <option name="timeStamp" value="268" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">

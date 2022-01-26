@@ -5,18 +5,20 @@
 #include "bsp_imu.h"
 #include "Ins.h"
 #include "math.h"
-
-
+#include "BMI088driver.h"
+#include "user_lib.h"
+#include "QuaternionAHRS.h"
 
 
 void get_imu_data(imu_t *imu_data){
-    imu_data->acc_x = bmi088_real_data.accel[0];
-    imu_data->acc_y = bmi088_real_data.accel[1];
-    imu_data->acc_z = bmi088_real_data.accel[2];
-    imu_data->angle_x = INS_angle[0]* 180 / PI;
-    imu_data->angle_y = INS_angle[1]* 180 / PI;
-    imu_data->angle_z = INS_angle[2]* 180 / PI;
-    imu_data->gyro_x = bmi088_real_data.gyro[0];
-    imu_data->gyro_y = bmi088_real_data.gyro[1];
-    imu_data->gyro_z = bmi088_real_data.gyro[2];
+
+    imu_data->acc_x = BMI088.Accel[0];
+    imu_data->acc_y = BMI088.Accel[1];
+    imu_data->acc_z = BMI088.Accel[2];
+    imu_data->angle_x = -AHRS.Pitch;
+    imu_data->angle_y = -AHRS.Roll;
+    imu_data->angle_z = -AHRS.Yaw;
+    imu_data->gyro_x = BMI088.Gyro[0];
+    imu_data->gyro_y = BMI088.Gyro[1];
+    imu_data->gyro_z = BMI088.Gyro[2];
 }

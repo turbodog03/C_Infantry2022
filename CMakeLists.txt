@@ -22,7 +22,7 @@ set(CMAKE_C_STANDARD 11)
 add_compile_definitions(ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING)
 add_compile_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
 add_link_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
-
+link_directories(UserLib)
 #Uncomment for software floating point
 #add_compile_options(-mfloat-abi=soft)
 
@@ -73,3 +73,4 @@ add_custom_command(TARGET ${PROJECT_NAME}.elf POST_BUILD
         COMMAND ${CMAKE_OBJCOPY} -Obinary $<TARGET_FILE:${PROJECT_NAME}.elf> ${BIN_FILE}
         COMMENT "Building ${HEX_FILE}
 Building ${BIN_FILE}")
+target_link_libraries(${PROJECT_NAME}.elf libarm_cortexM4lf_math.a)

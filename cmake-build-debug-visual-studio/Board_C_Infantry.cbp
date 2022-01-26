@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Board_C_Infantry"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/HLiamso/Desktop/C_Infantry2022-master/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Board_C_Infantry.elf">
+				<Option output="C:/Users/HLiamso/Desktop/C_Infantry2022-master/cmake-build-debug-visual-studio/Board_C_Infantry.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HLiamso/Desktop/C_Infantry2022-master/cmake-build-debug-visual-studio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Inc"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/APP"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/BSP/Inc"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Custom"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Devices"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include"/>
+					<Add directory="c:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 Board_C_Infantry.elf"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Board_C_Infantry.elf/fast">
+				<Option output="C:/Users/HLiamso/Desktop/C_Infantry2022-master/cmake-build-debug-visual-studio/Board_C_Infantry.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HLiamso/Desktop/C_Infantry2022-master/cmake-build-debug-visual-studio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Inc"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/APP"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/BSP/Inc"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Custom"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Devices"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include"/>
+					<Add directory="c:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 Board_C_Infantry.elf/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/HLiamso/Desktop/C_Infantry2022-master/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/HLiamso/Desktop/C_Infantry2022-master/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HLiamso\Desktop\C_Infantry2022-master\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/APP/Detect.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/APP/Detect.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/APP/Gimbal.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/APP/Gimbal.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/APP/Ins.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/APP/Ins.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/APP/Shoot.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/APP/Shoot.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/APP/Transmission.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/APP/Transmission.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/BSP/Src/bsp_can.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/BSP/Src/bsp_delay.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/BSP/Src/bsp_dwt.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/BSP/Src/bsp_flash.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/BSP/Src/bsp_imu.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/BSP/Src/bsp_spi.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/BSP/Src/bsp_tim.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/BSP/Src/bsp_uart.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Devices/BMI088Middleware.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Devices/BMI088Middleware.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Devices/BMI088driver.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Devices/BMI088driver.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Devices/BMI088reg.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Devices/ist8310driver.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Devices/ist8310driver.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Devices/ist8310driver_middleware.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Devices/ist8310driver_middleware.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/STM32F407IGHx_FLASH.ld">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/adc.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/can.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/crc.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/dma.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/freertos.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/gpio.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/i2c.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/main.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/rng.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/rtc.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/spi.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/stm32f4xx_hal_msp.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/stm32f4xx_it.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/syscalls.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/system_stm32f4xx.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/tim.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/Src/usart.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/MahonyAHRS.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/MahonyAHRS.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/arm_math.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/bsxlite_interface.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/calibrate.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/calibrate.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/controller.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/controller.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/filter32.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/filter32.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/keyboard.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/keyboard.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/motor.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/motor.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/pid.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/pid.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/ramp.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/ramp.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/user_lib.c">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/UserLib/user_lib.h">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/startup/startup_stm32f407xx.s">
+			<Option target="Board_C_Infantry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/HLiamso/Desktop/C_Infantry2022-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

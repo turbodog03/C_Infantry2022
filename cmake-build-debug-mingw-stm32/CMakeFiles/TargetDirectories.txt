@@ -1,0 +1,3 @@
+C:/Users/HLiamso/Desktop/C_Infantry2022-master/cmake-build-debug-mingw-stm32/CMakeFiles/Board_C_Infantry.elf.dir
+C:/Users/HLiamso/Desktop/C_Infantry2022-master/cmake-build-debug-mingw-stm32/CMakeFiles/edit_cache.dir
+C:/Users/HLiamso/Desktop/C_Infantry2022-master/cmake-build-debug-mingw-stm32/CMakeFiles/rebuild_cache.dir
